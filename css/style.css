@@ -1,50 +1,42 @@
 body  {
-    min-width: 320px;
-    min-height: 100vh;
-    line-height: 1.0;
-    word-wrap: break-word;
-    overflow-x: hidden;
     background-color: #F5F5F5;
-    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20d%3D%22M%200%200%20L%20512%20512%20M%20512%200%20L%200%20512%22%20stroke%3D%22%23D3D6F2%22%20stroke-width%3D%221.01px%22%20vector-effect%3D%22non-scaling-stroke%22%20stroke-linecap%3D%22square%22%20fill-rule%3D%22nonzero%22%20%2F%3E%3C%2Fsvg%3E');
-    background-size: 512px;
-    background-position: center;
-    background-repeat: repeat;
 }
-body * {
-    font-family: Work Sans;
-    color: #555866;
-  }
+html>body{font-family:'Work Sans','Helvetica','Arial',sans-serif!important;color: #555866;}
 h1, h2, h3 {
     font-family: 'Lora', serif !important;
     color: #555866 !important;
-    line-height: 1 !important;
     font-weight: 400 !important;
 }
-h1 {
-    font-size: 3em !important;
+h1, span#mainpage p {
+    font-family: 'Lora', serif !important;
+    font-size: 2em;
 }
 h2 {
-    font-size: 2em !important;
+    font-size: 1.5em;
+    border-bottom: 1px dotted #555866;
 }
-
 h3 {
-    font-size: 1.5em !important;
+    font-size: 1.3em;
 }
 p {
     letter-spacing: 0rem !important;
     width: 100% !important;
-    font-size: 1.1em !important;
-    line-height: 2.125 !important;
+    line-height: 2em !important;
 }
 
 code {
 font-family: 'Lucida Console', 'Courier New', monospace;
+width: auto;
 font-weight: normal;
 text-indent: 0;
 letter-spacing: 0;
 font-size: 0.9em;
-margin: 0 0.25em;
-padding: 0.25em 0.5em;
+/*margin: 0 0.25em;
+padding: 0.25em 0.5em; */
 background-color: rgba(144,144,144,0.25);
 border-radius: 0.25em;
+}
+
+footer {
+    margin-top: 5em;
 }

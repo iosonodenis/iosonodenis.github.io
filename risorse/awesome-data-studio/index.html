@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+
+    
+    
+    <title>Denis Rasia | Digital Analyst | Awesome Data Studio</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_blue.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,400italic,700,700italic%7CLora:400,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="script" type="text/javascript" href="/js/scripts.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET";analytics.SNIPPET_VERSION="4.13.2";
+        analytics.load("Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET");
+        analytics.page();
+        }}();
+    </script>
+    <meta property="og:title" content="Awesome Data Studio | Denis Rasia | Digital Analyst" />
+    <meta name="twitter:title" content="Awesome Data Studio | Denis Rasia | Digital Analyst" />
+    <meta itemprop="name" content="Awesome Data Studio | Denis Rasia | Digital Analyst" />
+    <meta name="application-name" content="Awesome Data Studio | Denis Rasia | Digital Analyst" />
+    <meta property="og:site_name" content="" />
+
+    <meta name="description" content="Una lista di risorse indispensabili per Google Data Studio" />
+    <meta itemprop="description" content="Una lista di risorse indispensabili per Google Data Studio" />
+    <meta property="og:description" content="Una lista di risorse indispensabili per Google Data Studio" />
+    <meta name="twitter:description" content="Una lista di risorse indispensabili per Google Data Studio" />
+
+    <base href="https://denisrasia.com/risorse/awesome-data-studio/">
+    <link rel="canonical" href="https://denisrasia.com/risorse/awesome-data-studio/" itemprop="url" /> 
+    <meta name="url" content="https://denisrasia.com/risorse/awesome-data-studio/" />
+    <meta name="twitter:url" content="https://denisrasia.com/risorse/awesome-data-studio/" /> 
+    <meta property="og:url" content="https://denisrasia.com/risorse/awesome-data-studio/" />
+</head><body>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col">
+                
+    <header class="mdl-layout__header--transparent">
+        <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col">
+        </div>
+        <div class="mdl-cell mdl-cell--12-col">
+            <div>
+                👋 <a href="/">Denis Rasia</a> | Digital Analyst
+            </div>
+        </div>
+    </div>
+    </header>
+            <main class="mdl-layout__content" style="flex: 1 0 auto;">
+<h1>📈 Awesome Data Studio</h1>
+<h2>Una lista di risorse indispensabili per Google Data Studio</h2>
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--9-col">
+        <p>155 parole</p>
+        <p>Google Data Studio è il servizio di data visualization che amo odiare.</p>
+<h3 id="estrarre-un-parametro-in-un-nuovo-campo">Estrarre un parametro in un nuovo campo</h3>
+<p>Creare un campo calcolato contenente un parametro preso da una url. Sostituire parametro con il nome del parametro desiderato:</p>
+<pre tabindex="0"><code>REGEXP_EXTRACT(pagepath, 'parametro=([^&amp;]+)')
+</code></pre><h3 id="rimuovere-tutti-i-parametri-da-un-url">Rimuovere tutti i parametri da un URL</h3>
+<p>Creare un campo calcolato contenenente url senza parametri: questo è un modo per consolidare le righe nei rapporti.</p>
+<pre tabindex="0"><code>REGEXP_REPLACE(pagepath, '\\?.*','')
+</code></pre><h2 id="manopolazione-delle-date-con-google-data-studio">Manopolazione delle date con Google Data Studio</h2>
+<h3 id="lunedì-primo-giorno-della-settimana">Lunedì primo giorno della settimana</h3>
+<p>Google Data Studio considera come primo giorno della settimana la Domenica. Un campo calcolato come il seguente porta il lunedì come primo giorno della settimana.</p>
+<pre tabindex="0"><code>CASE
+  WHEN REGEXP_MATCH(Day of Week, &quot;0&quot;) THEN 6
+  WHEN REGEXP_MATCH(Day of Week, &quot;1&quot;) THEN 0
+  WHEN REGEXP_MATCH(Day of Week, &quot;2&quot;) THEN 1
+  WHEN REGEXP_MATCH(Day of Week, &quot;3&quot;) THEN 2
+  WHEN REGEXP_MATCH(Day of Week, &quot;4&quot;) THEN 3
+  WHEN REGEXP_MATCH(Day of Week, &quot;5&quot;) THEN 4
+  WHEN REGEXP_MATCH(Day of Week, &quot;6&quot;) THEN 5
+END
+</code></pre>
+    </div>
+    <div class="mdl-cell mdl-cell--3-col">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#estrarre-un-parametro-in-un-nuovo-campo">Estrarre un parametro in un nuovo campo</a></li>
+        <li><a href="#rimuovere-tutti-i-parametri-da-un-url">Rimuovere tutti i parametri da un URL</a></li>
+      </ul>
+    </li>
+    <li><a href="#manopolazione-delle-date-con-google-data-studio">Manopolazione delle date con Google Data Studio</a>
+      <ul>
+        <li><a href="#lunedì-primo-giorno-della-settimana">Lunedì primo giorno della settimana</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</div>
+
+            </main><footer class="mdl-mini-footer--transparent">
+    <div>&copy; 2021 | 🍪 Questo sito utilizza dei <a href="/cookie">cookie</a> tecnici per raccogliere informazioni sul vostro percorso di navigazione.</div>
+</footer></div>
+    </div>   
+</body>
+
+</html>
