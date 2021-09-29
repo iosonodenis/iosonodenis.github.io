@@ -19,16 +19,21 @@
         analytics.page();
         }}();
     </script>
+    
+
+    
     <meta property="og:title" content="Guida ai dati problematici | Denis Rasia | Digital Analyst" />
     <meta name="twitter:title" content="Guida ai dati problematici | Denis Rasia | Digital Analyst" />
     <meta itemprop="name" content="Guida ai dati problematici | Denis Rasia | Digital Analyst" />
-    <meta name="application-name" content="Guida ai dati problematici | Denis Rasia | Digital Analyst" />
-    <meta property="og:site_name" content="" />
+    
 
+    <meta name="application-name" content="Denis Rasia | Digital Analyst" />
+    <meta property="og:site_name" content="" />
     <meta name="description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
     <meta itemprop="description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
     <meta property="og:description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
     <meta name="twitter:description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
+
 
     <base href="https://denisrasia.com/risorse/guida-dati-problematici/">
     <link rel="canonical" href="https://denisrasia.com/risorse/guida-dati-problematici/" itemprop="url" /> 
@@ -48,23 +53,31 @@
                 👋 <a href="/">Denis Rasia</a> | Digital Analyst
             </div>
         </div>
+        <div class="mdl-cell mdl-cell--12-col">
+        </div>
     </div>
     </header>
                 <main class="mdl-layout__content" style="flex: 1 0 auto;">
-<h1>🐛 Guida ai dati problematici</h1>
-<h2>Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo</h2>
 <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--9-col">
-        <p>4907 parole</p>
-        <p>Lavorare con i dati non è sempre diretto come sembra e i numerosi corsi online ti fanno esercitare su dataset già pronti all&rsquo;uso, ma spesso (se non sempre) i dati che abbiamo davanti sono tutt&rsquo;altro che chiari, puliti e facilmente interpretabili.</p>
-<p><a href="https://qz.com/emails/daily-brief?grsf=4u72hg">QZ</a>, una delle più interessanti testate online di notizie, ha <a href="https://qz.com/572338/the-quartz-guide-to-bad-data/">pubblicato</a> una <a href="https://github.com/Quartz/bad-data-guide">guida</a> su come individuare, lavorare e risolvere le analisi con dati problematici. Il taglio è della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</p>
+    <div class="mdl-cell mdl-cell--1-col"></div>
+    <div class="mdl-cell mdl-cell--10-col">
+        <h1>🐛 Guida ai dati problematici</h1>
+        <h2>Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo</h2>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col"></div>
+</div>
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--1-col"></div>
+    <div class="mdl-cell mdl-cell--7-col">
+        <p>Lavorare con i dati non è sempre un processo diretto come può sembrare, inoltre i numerosi corsi online ti fanno esercitare su dataset già pronti all&rsquo;uso anche se spesso (se non sempre) i dati che abbiamo davanti sono tutt&rsquo;altro che chiari, puliti e facilmente interpretabili.</p>
+<p><a href="https://qz.com/emails/daily-brief?grsf=4u72hg">QZ</a>, una delle più interessanti testate online di notizie, ha <a href="https://qz.com/572338/the-quartz-guide-to-bad-data/">pubblicato</a> una <a href="https://github.com/Quartz/bad-data-guide">guida</a> su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</p>
 <p>La versione Italiana (attualmente in corso di finalizzazione) è questa qui:</p>
 <h2 id="-problemi-risolvibili-dalla-fonte-dei-dati">🎁 Problemi risolvibili dalla fonte dei dati</h2>
 <h3 id="valori-mancanti">Valori mancanti</h3>
-<p>Rimuovere valori vuoti o <em>null</em> in un dataset a meno che non si ha assoluta certezza del loro significato. Se il dataset contiene dati annui, il valore per quell&rsquo;anno non è mai stato raccolto? Se è un sondaggio, l&rsquo;utente si è rifiutato di rispondere alla domanda?</p>
-<p>Ogni volta che lavori con dei valori mancanti dovresti chiederti: <em>&ldquo;So cosa significa la mancanza di questo valore?&quot;</em> Se la risposta è no, dovresti chiedere maggiori informazioni alla tua fonte.</p>
+<p>E' consigliabile rimuovere valori vuoti (detti <em>null</em>) in un dataset a meno che non si ha assoluta certezza del loro significato. Ad esempio se il dataset contiene dati per anno, il valore per quell&rsquo;anno non è mai stato raccolto? Se è un sondaggio, l&rsquo;utente si è rifiutato di rispondere alla domanda?</p>
+<p>Ogni volta che lavori con dei valori mancanti dovresti chiederti: <em>&ldquo;Sono certo di cosa significhi la mancanza di questo valore?&quot;</em> Se la risposta è no, dovresti chiedere maggiori informazioni alla tua fonte.</p>
 <h3 id="zero-sostituisce-valori-mancanti">Zero sostituisce valori mancanti</h3>
-<p>Peggio di un valore mancante è un valore usato arbitrariamente. Questo può essere il risultato di intervento manuale che non ha valutato le implicazioni di quel zero, oppure può essere  il risultato di processi automatizzati che semplicemente non sanno come gestire valori nulli. In ogni caso, se vedi degli zeri in una serie di numeri dovresti chiederti se quei valori sono davvero il numero &ldquo;0&rdquo; o se invece significano &ldquo;niente&rdquo;. (A volte <code>-1</code> viene usato in questo modo.) Se non sei sicuro, chiedi alla tua fonte.</p>
+<p>Peggio di un valore mancante è un valore usato arbitrariamente. Questo può essere il risultato di intervento manuale che non ha valutato le implicazioni di quel zero, oppure può essere il risultato di processi automatizzati che semplicemente non sanno come gestire valori nulli (i <em>null</em> sopra citati). In ogni caso, se vedi degli zeri in una serie di numeri dovresti chiederti se quei valori sono davvero il numero <code>0</code> o se invece significano <em>niente</em>. (A volte <code>-1</code> viene usato in questo modo.) Se non sei sicuro, chiedi alla tua fonte.</p>
 <p>La stessa cautela dovrebbe essere esercitata per altri valori non numerici dove uno <code>0</code> potrebbe essere rappresentato in un altro modo. Per esempio un falso <code>0</code> in una data lo vediamo in <code>1970-01-01T00:00:00Z</code> o in <code>1969-12-31T24:59:59Z</code>  a causa dei <a href="https://en.wikipedia.org/wiki/Unix_time#Encoding_time_as_a_number">timestamp in Unix</a>. Un falso <code>0</code> per un luogo potrebbe essere rappresentato da <code>0°00'00.0&quot;N+0°00'00.0&quot;E</code> o semplicemente <code>0°N 0°E</code>, un punto nell&rsquo;Oceano Atlantico a sud del Ghana noto come <a href="https://en.wikipedia.org/wiki/Null_Island">Null Island</a>.</p>
 <p>Vedi anche:</p>
 <ul>
@@ -387,6 +400,7 @@
     </li>
   </ul>
 </nav></div>
+        <div class="mdl-cell mdl-cell--1-col"></div>
 </div>
 
                 </main><footer class="mdl-mini-footer--transparent">
