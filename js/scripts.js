@@ -1,3 +1,4 @@
+/*
 $("a").on("click",function(){
     var clicked_text = $(this).text();
     var clicked_url = $(this).attr("href");
@@ -6,3 +7,4 @@ $("a").on("click",function(){
         clicked_url: clicked_url
     });
 })
+*/

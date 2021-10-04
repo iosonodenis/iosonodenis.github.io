@@ -8,10 +8,10 @@
     <language>it-it</language><atom:link href="https://denisrasia.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cookie e Privacy Policy</title>
-      <link>https://denisrasia.com/altro/cookie/</link>
+      <link>https://denisrasia.com/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/altro/cookie/</guid>
+      <guid>https://denisrasia.com/cookie/</guid>
       <description>Questo sito utilizza strumenti di web analytics per sapere quante persone arrivano e visitano le proprie pagine. I cookie utilizzati sono:
  ajs_anonymous_id - 1 anno ajs_anonymous_id - persistente tld - sessione ajs_user_id - persistente  I dati vengono trasmessi con una Customer Data Platform all&amp;rsquo;interno dell&amp;rsquo;Unione Europea.
 All&#39;8 settembre 2021, l&amp;rsquo;estensione di DuckDuckGo valuta il grado di privacy di questo sito come B, in una scala da A (migliori) a E (i peggiori)</description>
@@ -19,10 +19,10 @@ All&#39;8 settembre 2021, l&amp;rsquo;estensione di DuckDuckGo valuta il grado d
     
     <item>
       <title>Guida ai dati problematici</title>
-      <link>https://denisrasia.com/note/guida-dati-problematici/</link>
+      <link>https://denisrasia.com/risorse/guida-dati-problematici/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/note/guida-dati-problematici/</guid>
+      <guid>https://denisrasia.com/risorse/guida-dati-problematici/</guid>
       <description>Lavorare con i dati non è sempre un processo diretto come può sembrare, inoltre i numerosi corsi online ti fanno esercitare su dataset già pronti all&amp;rsquo;uso anche se spesso (se non sempre) i dati che abbiamo davanti sono tutt&amp;rsquo;altro che chiari, puliti e facilmente interpretabili.
 QZ, una delle più interessanti testate online di notizie, ha pubblicato una guida su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</description>
     </item>

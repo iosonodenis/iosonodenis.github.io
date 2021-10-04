@@ -1,10 +1,13 @@
 body  {
-    background-color: #F5F5F5;
+    background-color: #576270;
+    opacity: 0.8;
+    background-image: radial-gradient(#d2d2d3 0.6000000000000001px, #576270 0.6000000000000001px);
+    background-size: 40px 40px;
 }
-html>body{font-family:'Work Sans','Helvetica','Arial',sans-serif!important;color: #555866;}
-h1, h2, h3 {
+html>body{font-family:'Work Sans','Helvetica','Arial',sans-serif!important;color: #FFFFFF;}
+h1, h3 {
     font-family: 'Lora', serif !important;
-    color: #555866 !important;
+    color: #FFFFFF !important;
     font-weight: 400 !important;
 }
 h1, span#mainpage p {
@@ -12,8 +15,11 @@ h1, span#mainpage p {
     font-size: 2em;
 }
 h2 {
+    font-family: 'Lora', serif !important;
+    font-weight: 400 !important;
     font-size: 1.5em;
-    border-bottom: 1px dotted #555866;
+    border-bottom: 1px dotted #FFFFFF;
+    color: #FFFFFF;
 }
 h3 {
     font-size: 1.3em;
