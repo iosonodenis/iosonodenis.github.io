@@ -1,13 +1,12 @@
 body  {
-    background-color: #576270;
+    background-color: #f8f8f8;
     opacity: 0.8;
-    background-image: radial-gradient(#d2d2d3 0.6000000000000001px, #576270 0.6000000000000001px);
+    background-image: radial-gradient(#183761 0.6000000000000001px, #f8f8f8 0.6000000000000001px);
     background-size: 40px 40px;
 }
-html>body{font-family:'Work Sans','Helvetica','Arial',sans-serif!important;color: #FFFFFF;}
+html>body{font-family:'Work Sans','Helvetica','Arial',sans-serif!important;color: #183761;}
 h1, h3 {
     font-family: 'Lora', serif !important;
-    color: #FFFFFF !important;
     font-weight: 400 !important;
 }
 h1, span#mainpage p {
@@ -18,16 +17,16 @@ h2 {
     font-family: 'Lora', serif !important;
     font-weight: 400 !important;
     font-size: 1.5em;
-    border-bottom: 1px dotted #FFFFFF;
-    color: #FFFFFF;
+    border-bottom: 1px dotted #183761;
 }
 h3 {
     font-size: 1.3em;
 }
-p {
+p, a {
     letter-spacing: 0rem !important;
     width: 100% !important;
     line-height: 2em !important;
+    color: #183761 !important;
 }
 
 code {
