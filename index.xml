@@ -7,13 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language><atom:link href="https://denisrasia.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Chiarezza</title>
+      <link>https://denisrasia.com/analytics-translator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/analytics-translator/</guid>
+      <description>Move fast, break things è una nota frase che caratterizza il periodo d&amp;rsquo;oro delle startup dove, senza troppo parafrasare, se non stai rompendo qualcosa non ti stai muovendo sufficientemente abbastanza.
+Ci sono diversi dubbi sulla sostenibilità di questo modello. Personalmente mi chiedo quando e come si riesce a ragionare, a più livelli, su cosa si sta facendo.
+Dubbi sul mondo degli algoritmi, e sull&amp;rsquo;infallibilità dei dati, non mancano. Un numero da solo è un numero e volendo è fin troppo facile saltare a conclusioni affrettate.</description>
+    </item>
+    
+    <item>
       <title>Cookie e Privacy Policy</title>
       <link>https://denisrasia.com/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/cookie/</guid>
       <description>Questo sito utilizza strumenti di web analytics per sapere quante persone arrivano e visitano le proprie pagine. I cookie utilizzati sono:
- ajs_anonymous_id - 1 anno ajs_anonymous_id - persistente tld - sessione ajs_user_id - persistente  I dati vengono trasmessi con una Customer Data Platform all&amp;rsquo;interno dell&amp;rsquo;Unione Europea.
+ ajs_anonymous_id - 1 anno ajs_anonymous_id - persistente tld - sessione ajs_user_id - persistente  I dati sono raccolti dalla Customer Data Platform all&amp;rsquo;interno dell&amp;rsquo;Unione Europea. Per capire meglio cosa fate nel sito, c&amp;rsquo;è uno strumento di creazione di mappe di click che non utilizza cookie.
 All&#39;8 settembre 2021, l&amp;rsquo;estensione di DuckDuckGo valuta il grado di privacy di questo sito come B, in una scala da A (migliori) a E (i peggiori)</description>
     </item>
     
