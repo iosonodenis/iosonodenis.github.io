@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language><atom:link href="https://denisrasia.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chiarezza</title>
+      <title>Analytics Translator</title>
       <link>https://denisrasia.com/analytics-translator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/analytics-translator/</guid>
-      <description>Move Fast, Break Things(?) Move fast, break things è una nota frase che caratterizza il periodo d&amp;rsquo;oro delle startup dove, senza troppo parafrasare, se non stai rompendo qualcosa non ti stai muovendo sufficientemente abbastanza.
-Ci sono diversi dubbi sulla sostenibilità di questo modello. Personalmente mi chiedo quando e come si riesce a ragionare, a più livelli, su cosa si sta facendo.
-Dubbi sul mondo degli algoritmi, e sull&amp;rsquo;infallibilità dei dati, non mancano.</description>
+      <description>Non tutti i dati sono uguali È un periodo di abbondanza di dati e delle fonti che li generano. La famosa citazione di Clive Humby: data is the new oil, ricorda che sono estremamente preziosi ma anche scivolosi.
+Non tutti i dati sono uguali. Si dice che non mentono mai, ma possono nascere da errori, problemi e bias.
+C’è inoltre un processo di democraticizzazione dell’accesso ai dati dove sempre più aziende (Adobe, Tableau, Microsoft, ad esempio) forniscono strumenti per accedere in maniera autonoma alle informazioni.</description>
+    </item>
+    
+    <item>
+      <title>Chiarezza</title>
+      <link>https://denisrasia.com/chiarezza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/chiarezza/</guid>
+      <description>Senza dati sei solo una persona con un’opinione La citazione di Edward Deming è spesso usata per indicare quanto le informazioni siano importanti per argomentare il proprio pensiero. Ed è vero: i dati ti separano dalla chiacchiera da bar.
+Il solo in quella frase è un diminutivo: fa intuire che senza numeri, grafici, confronti, il tuo pensiero conta fino ad un certo punto. O almeno così, a noi analyst, piace strumentalizzarla.</description>
     </item>
     
     <item>

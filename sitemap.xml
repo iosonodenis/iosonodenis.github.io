@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://denisrasia.com/analytics-translator/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://denisrasia.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://denisrasia.com/analytics-translator/</loc>
+    <loc>https://denisrasia.com/chiarezza/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
