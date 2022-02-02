@@ -41,10 +41,10 @@
 
   <meta name="application-name" content="Denis Rasia | Digital Analyst" />
   <meta property="og:site_name" content="" />
-  <meta name="description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
-  <meta itemprop="description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
-  <meta property="og:description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
-  <meta name="twitter:description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo" />
+  <meta name="description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati prima e non piangere dopo" />
+  <meta itemprop="description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati prima e non piangere dopo" />
+  <meta property="og:description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati prima e non piangere dopo" />
+  <meta name="twitter:description" content="Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati prima e non piangere dopo" />
 
 
   <base href="https://denisrasia.com/risorse/guida-dati-problematici/">
@@ -70,20 +70,20 @@ function OptanonWrapper() { }
                     <h1 role="heading" class="text-xl lg:text-6xl md:leading-snug tracking-tighter f-f-l font-black mb-10"><span
                         class="red">🐛</span> Guida ai dati problematici</h1>
                 
-                <h2>Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati e non piangere dopo</h2>
+                <h2>Una guida realizzata da QZ e qui tradotta per individuare i problemi nei dati prima e non piangere dopo</h2>
                 </div>
                 <div class="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6 py-4 md:py-8">
                     <div class="py-2 text-color"> 
                         <p role="contentinfo" class="text-lg lg:text-3xl lg:leading-7 md:leading-10 f-f-r">
                             <p>Lavorare con i dati non è sempre un processo diretto come può sembrare, inoltre i numerosi corsi online ti fanno esercitare su dataset già pronti all&rsquo;uso anche se spesso (se non sempre) i dati che abbiamo davanti sono tutt&rsquo;altro che chiari, puliti e facilmente interpretabili.</p>
-<p><a href="https://qz.com/emails/daily-brief?grsf=4u72hg">QZ</a>, una delle più interessanti testate online di notizie, ha <a href="https://qz.com/572338/the-quartz-guide-to-bad-data/">pubblicato</a> una <a href="https://github.com/Quartz/bad-data-guide">guida</a> su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</p>
+<p><a href="https://qz.com/emails/daily-brief?grsf=4u72hg">QZ</a>, uno dei miei preferiti portali di notizie, ha <a href="https://qz.com/572338/the-quartz-guide-to-bad-data/">pubblicato</a> una <a href="https://github.com/Quartz/bad-data-guide">guida</a> su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</p>
 <p>La versione Italiana (attualmente in corso di finalizzazione) è questa qui:</p>
 <h2 id="-problemi-risolvibili-dalla-fonte-dei-dati">🎁 Problemi risolvibili dalla fonte dei dati</h2>
 <h3 id="valori-mancanti">Valori mancanti</h3>
-<p>E' consigliabile rimuovere valori vuoti (detti <em>null</em>) in un dataset a meno che non si ha assoluta certezza del loro significato. Ad esempio se il dataset contiene dati per anno, il valore per quell&rsquo;anno non è mai stato raccolto? Se è un sondaggio, l&rsquo;utente si è rifiutato di rispondere alla domanda?</p>
-<p>Ogni volta che lavori con dei valori mancanti dovresti chiederti: <em>&ldquo;Sono certo di cosa significhi la mancanza di questo valore?&quot;</em> Se la risposta è no, dovresti chiedere maggiori informazioni alla tua fonte.</p>
+<p>E' consigliabile rimuovere i valori vuoti (detti <em>null</em>) in un dataset a meno che non si ha assoluta certezza del loro significato. Ad esempio se il dataset contiene dati per anno e una cella è vuota, il valore per quell&rsquo;anno non è mai stato raccolto o è zero? Se si tratta di un sondaggio, l&rsquo;utente si è rifiutato di rispondere alla domanda?</p>
+<p>Ogni volta che lavori con dei valori mancanti dovresti chiederti: <em>&ldquo;Sono certo di cosa significhi la mancanza di questo valore?&quot;</em> Se la risposta è no, dovresti chiedere maggiori informazioni alla fonte del dato.</p>
 <h3 id="zero-sostituisce-valori-mancanti">Zero sostituisce valori mancanti</h3>
-<p>Peggio di un valore mancante è un valore usato arbitrariamente. Questo può essere il risultato di intervento manuale che non ha valutato le implicazioni di quel zero, oppure può essere il risultato di processi automatizzati che semplicemente non sanno come gestire valori nulli (i <em>null</em> sopra citati). In ogni caso, se vedi degli zeri in una serie di numeri dovresti chiederti se quei valori sono davvero il numero <code>0</code> o se invece significano <em>niente</em>. (A volte <code>-1</code> viene usato in questo modo.) Se non sei sicuro, chiedi alla tua fonte.</p>
+<p>Una situazione peggiore può essere usare un valore arbitrariamente per sostituire i <em>null</em>. Questo può essere il risultato di intervento manuale che non ha valutato le implicazioni di quel zero, oppure può essere il risultato di processi automatizzati che semplicemente non sanno come gestire valori nulli (i <em>null</em> sopra citati). In ogni caso, se vedi degli zeri in una serie di numeri dovresti chiederti se quei valori sono davvero il numero <code>0</code> o se invece significano <em>niente</em>. (A volte <code>-1</code> viene usato in questo modo.) Se non sei sicuro, chiedi alla fonte dei dati.</p>
 <p>La stessa cautela dovrebbe essere esercitata per altri valori non numerici dove uno <code>0</code> potrebbe essere rappresentato in un altro modo. Per esempio un falso <code>0</code> in una data lo vediamo in <code>1970-01-01T00:00:00Z</code> o in <code>1969-12-31T24:59:59Z</code>  a causa dei <a href="https://en.wikipedia.org/wiki/Unix_time#Encoding_time_as_a_number">timestamp in Unix</a>. Un falso <code>0</code> per un luogo potrebbe essere rappresentato da <code>0°00'00.0&quot;N+0°00'00.0&quot;E</code> o semplicemente <code>0°N 0°E</code>, un punto nell&rsquo;Oceano Atlantico a sud del Ghana noto come <a href="https://en.wikipedia.org/wiki/Null_Island">Null Island</a>.</p>
 <p>Vedi anche:</p>
 <ul>
@@ -91,54 +91,59 @@ function OptanonWrapper() { }
 <li><a href="#il-foglio-ha-date-nel-1900-1904-1969-o-1970">Il foglio ha date nel 1900, 1904, 1969 o 1970</a></li>
 </ul>
 <h3 id="mancano-dati-che-sai-che-dovrebbero-esserci">Mancano dati che sai che dovrebbero esserci</h3>
-<p>A volte mancano dati che, per conoscenza dell&rsquo;argomento, sai che dovrebbero esserci. Ad esempio se stai lavorando su un set di dati sugli Stati Uniti è possibile verificare che tutti i 50 stati siano presenti. (senza dimenticarsi dei <a href="https://en.wikipedia.org/wiki/Territories_of_the_United_States">territori</a>—50 non sarebbe il numero corretto se il dataset dovrebbe includere anche il Porto Rico.) Se hai a che fare con un set di dati dei giocatori di calcio, assicurati che abbia il numero di squadre che ti aspetti. Verifica che alcuni giocatori che conosci siano inseriti. Fidati della tua intuizione se qualcosa sembra mancare e prova a ricontrollare con la tua fonte. Non è da escludere che l&rsquo;insieme (detto anche universo) dei tuoi dati potrebbe essere più piccolo di quanto pensi.</p>
+<p>Può succedere che mancano dei dati e che ne hai la certezza grazie alla tua conoscenza dell’argomento (la padronanza del <a href="/chiarezza">dominio</a> è una caratteristica vitale per un buon analyst). Ad esempio se stai lavorando su un set di dati sulle regioni Italiane è possibile verificare se tutte e 20 le regioni sono presenti (o 21, se il dataset preferisce trattare le provincie autonome di Trento e Bolzano separatamente). Generalmente puoi fidarti della tua intuizione se qualcosa sembra mancare ma prova a ricontrollare con la tua fonte. Non è da escludere che l&rsquo;insieme (detto anche universo) dei tuoi dati potrebbe essere più piccolo di quanto pensi.</p>
 <h3 id="righe-o-valori-duplicati">Righe o valori duplicati</h3>
-<p>Se vedi la stessa riga apparire più volte nel dataset, dovresti capirne il motivo. A volte non si tratta di una riga intera. Alcuni dati possono includere <em>emendamenti</em> che utilizzano gli stessi identificatori univoci della transazione originale. Se questo viene ignorato, qualsiasi calcolo effettuato con i dati sarebbe errato. Se noti qualcosa che dovrebbe essere unico verifica che effettivamente lo sia, altrimenti verifica con la tua fonte.</p>
+<p>Se vedi la stessa riga apparire più volte nel dataset, dovresti capirne il motivo. A volte non si tratta di una riga intera. Alcuni dati possono includere <em>emendamenti</em> che utilizzano gli stessi identificatori univoci della transazione originale. Se questo viene ignorato, qualsiasi calcolo effettuato con i dati sarebbe errato. Se noti qualcosa che dovrebbe essere unico verifica che lo sia effettivamente, altrimenti verifica con la tua fonte.</p>
 <h3 id="spelling-inconsistente">Spelling inconsistente</h3>
-<p>L&rsquo;ortografia è uno dei modi più semplici per capire se i dati sono stati compilati a mano. Non limitarti a guardare i nomi delle persone ma cerca invece, ad esempio, dove i nomi delle città non sono coerenti. (<code>Los Angelos</code> è un errore molto comune.) Se li trovi puoi essere abbastanza sicuro che i dati sono stati compilati o modificati a mano e questo è un segnale di cautela. I dati che sono stati modificati a mano hanno maggiori probabilità di avere errori. Questo non significa che non dovresti usarli, ma potresti dover correggere manualmente quegli errori o comunque tenerne conto nei tuoi rapporti.</p>
+<p>L&rsquo;ortografia è uno dei modi più semplici per capire se i dati sono stati compilati a mano (e quindi proni ad errori). Non limitarti a guardare i nomi delle persone ma cerca, ad esempio, dove i nomi delle città non sono coerenti. (<code>Los Angelos</code> è un errore molto comune.) Se li trovi puoi essere abbastanza sicuro che i dati sono stati compilati o modificati a mano e questo è un segnale su cui esercitare cautela perché i dati che sono stati modificati a mano hanno maggiori probabilità di avere errori. Questo non significa che non dovresti usarli, ma potresti dover correggere manualmente quegli errori o comunque tenerne conto nei tuoi rapporti.</p>
 <p><a href="http://openrefine.org/">OpenRefine</a> ha una funzione di <a href="https://github.com/OpenRefine/OpenRefine/wiki/Clustering">text clustering</a> che può aiutare a semplificare il processo di correzione ortografico suggerendo combinazioni ravvicinate tra valori inconsistenti all&rsquo;interno di una colonna (per esempio, armonizzando <code>Treviso</code> e <code>Trevso</code>). E' importante <a href="https://github.com/OpenRefine/OpenRefine/wiki/Exporters">documentare i cambiamenti che vengono fatti</a> per fornire una <a href="#provenienza-non-documentata">buona provenienza dei dati</a>.</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#dati-inseriti-a-mano">Dati inseriti a mano</a></li>
 </ul>
 <h3 id="ordine-dei-nomi-incoerente">Ordine dei nomi incoerente</h3>
-<p>I dataset che contengono nomi mediorientali o asiatici? Sei sicuro che i cognomi sono sempre nello stesso posto? E' possibile incontrare un <a href="https://en.wikipedia.org/wiki/Indonesian_names#Indonesian_naming_system">mononimo</a>?. Se stai lavorando ad una lista di nomi che non sono Italiani, dovresti controllare che le colonne <code>first_name</code> e <code>last_name</code> rappresentino effettivamente nome e cognome.</p>
+<p>I dataset contengono nomi mediorientali o asiatici? Hai presente i portoghesi che hanno 4 cognomi? Sei sicuro che i cognomi sono sempre nello stesso posto? E' possibile incontrare un <a href="https://en.wikipedia.org/wiki/Indonesian_names#Indonesian_naming_system">mononimo</a>?. Se stai lavorando ad una lista di nomi che non sono Italiani, dovresti controllare che le colonne <code>first_name</code> e <code>last_name</code> rappresentino effettivamente nome e cognome.</p>
+<p><a href="https://it.wikipedia.org/wiki/Leone_(cognome)">Leone</a> è uno dei cognomi italiani più comuni e, allo stesso tempo, un nome.</p>
 <ul>
 <li><a href="#dati-inseriti-a-mano">Dati inseriti a mano</a></li>
 </ul>
 <h3 id="formati-data-incoerenti">Formati data incoerenti</h3>
-<p>Quale di queste date è a Settembre?</p>
+<p>Quale di queste date è nel mese di Settembre?</p>
 <ul>
 <li><code>10/9/15</code></li>
 <li><code>9/10/15</code></li>
 </ul>
-<p>Se il primo è stato scritto da un europeo e dal secondo da un americano <a href="https://en.wikipedia.org/wiki/Date_format_by_country">allora entrambe le date sono in Settembre</a>. Senza conoscere l&rsquo;origine dei dati non è possibile avere certezza del formato di data. Puoi sempre controllare se esiste <code>12/31/15</code> per capire se il formato è europeo o americano.</p>
+<p>Se la prima data è stata scritta da un europeo e la seconda data da un americano <a href="https://en.wikipedia.org/wiki/Date_format_by_country">allora entrambe le date sono in Settembre</a>. Senza conoscere l&rsquo;origine dei dati non è possibile avere certezza del formato di data, ma puoi sempre controllare se nel dataset trovi il 31 dicembre come <code>12/31/15</code> per capire se il formato utilizzato è quello europeo o americano.</p>
 <ul>
 <li><a href="#dati-inseriti-a-mano">Dati inseriti a mano</a></li>
 <li><a href="#provenienza-non-documentata">Provenienza non documentata</a></li>
 </ul>
 <h3 id="unità-non-specificate">Unità non specificate</h3>
-<p><code>peso</code> o <code>costo</code> non forniscono tutte le informazioni sull&rsquo;unità di misurazione. Attenzione, ad esempio, a subito assumere che un dataset proveniente dall&rsquo;Italia abbia come valuta di default l&rsquo;euro. I dati scientifici sono spesso di tipo metrico. I prezzi e i costi possono essere specificati nella loro valuta locale. Se non si spiega chiaramente la misura unitaria, controlla con la tua fonte. Considera inoltre che la stessa unità può avere valori diversi nel tempo. Un dollaro nel 2010 non è lo stesso dollaro oggi a causa dell&rsquo;inflazione. In Inglese ci sono diversi tipi di tonnellata: <a href="https://en.wikipedia.org/wiki/Short_ton">short ton</a>, <a href="https://en.wikipedia.org/wiki/Long_ton">long ton</a> e <a href="https://en.wikipedia.org/wiki/Tonne">tonne</a>.</p>
+<p><code>peso</code> o <code>costo</code> non forniscono tutte le informazioni sull&rsquo;unità di misurazione. Attenzione, ad esempio, ad assumere che un dataset proveniente dall&rsquo;Italia abbia come valuta di default l&rsquo;euro. I dati scientifici sono spesso di tipo metrico. I prezzi e i costi possono essere specificati nella loro valuta locale. Se non trovi la misura unitaria è consigliabile controllare con la tua fonte.
+Considera inoltre che la stessa unità può avere valori diversi nel tempo. Un dollaro nel 2010 non è lo stesso dollaro oggi a causa dell&rsquo;inflazione.
+In Inglese, inoltre, ci sono diversi tipi di tonnellata: <a href="https://en.wikipedia.org/wiki/Short_ton">short ton</a>, <a href="https://en.wikipedia.org/wiki/Long_ton">long ton</a> e <a href="https://en.wikipedia.org/wiki/Tonne">tonne</a>.</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#nomi-dei-campi-ambigui">Nomi dei campi ambigui</a></li>
 <li><a href="#inflazione-altera-i-dati">Inflazione altera i dati</a></li>
 </ul>
-<h3 id="categorie-scelte-approssimatamente">Categorie scelte approssimatamente</h3>
-<p>Presta attenzione a valori come <code>true</code> o <code>false</code> ma dove la realtà può essere più complessa. Ad esempio, nei sondaggi, <code>refused</code> o <code>no answer</code> sono valori validi e impostanti che possono essere confusi con <code>false</code>. Un altro problema comune potrebbe essere l&rsquo;uso della categoria <code>other</code>. If the categories in a dataset are a bunch of countries and an <code>other</code>, what does that mean? Does it mean that the person collecting the data didn&rsquo;t know the right answer? Were they in international waters? Expatriates? Refugees?</p>
-<p>Categorie approsimative possono essere state scelte per mascherare intenzionalmente i dati. Questo spesso accade con le statistiche del crimine dove la definizione può cambiare nel tempo (alcuni criminologi sostengono che le statistiche sugli stupri fatte dall&rsquo;FBI non dovrebbero essere utilizzate). Fare attenzione ai dataset che contengono colonne tipo <code>razza</code> e <code>etnia</code>.</p>
+<h3 id="categorie-scelte-approssimativamente">Categorie scelte approssimativamente</h3>
+<p>Presta attenzione a valori come <code>true</code> o <code>false</code> ma dove la realtà può essere più complessa. Ad esempio, nei sondaggi, <code>refused</code> o <code>no answer</code> sono valori che possono essere confusi con <code>false</code> (o come uno <code>0</code>).
+Un altro problema comune potrebbe essere l&rsquo;uso della categoria <code>other</code>. Ad esempio se le categorie sono una lista di nazioni e abbiamo tra le voci un <code>other</code>, cosa significa? Il sistema che raccoglieva i dati non sapeva cosa usare? Ad esempio un apolide o un rifugiato politico in che nazione andrebbe messa?</p>
+<p>Categorie approssimative possono venire scelte per mascherare intenzionalmente i dati. Questo spesso accade con le statistiche del crimine dove la definizione può cambiare nel tempo (alcuni criminologi sostengono che le statistiche sugli stupri fatte dall&rsquo;FBI non dovrebbero essere utilizzate). Fate inoltre attenzione ai dataset che contengono colonne tipo <code>razza</code> e <code>etnia</code>.</p>
 <h3 id="nomi-dei-campi-ambigui">Nomi dei campi ambigui</h3>
-<p>In un dataset straniero potreste trovare <code>residenza</code>, ma a differenza dell&rsquo;Italia lo sappiamo definire? È dove qualcuno vive o dove pagano le tasse? È una città o una provincia? I nomi dei campi nei dati non sono mai specifici come vorremmo e particolare attenzione dovrebbe essere applicata quando un campo potrebbe voler dire più cose. Anche se puoi fare una semplice deduzione, non hai la sicurezza che la fonte dei dati abbia applicato il tuo stesso criterio.</p>
+<p>In un dataset potreste trovare <code>residenza</code>, ma a differenza dell&rsquo;Italia lo sappiamo definire? È dove qualcuno vive o dove pagano le tasse? È una città o una provincia? I nomi dei campi nei dati non sono mai specifici come vorremmo e si dovrebbe applicare particolare attenzione quando un campo può voler dire più cose. Anche se ci puoi arrivare per deduzione, non hai la sicurezza che la fonte dei dati abbia applicato il tuo stesso criterio.</p>
 <h3 id="provenienza-non-documentata">Provenienza non documentata</h3>
-<p>I dati sono creati da una varietà di tipi di individui e organizzazioni, comprese le aziende, i governi, i non profit e i teorici delle cospirazioni. I dati vengono raccolti in molti modi diversi, inclusi sondaggi, sensori e satelliti. Può essere digitato, modificato o scarabocchiato. Sapere la provenienza dei dati significa saperne i limiti.</p>
-<p>I dati di un sondaggio, ad esempio, sono raramente esaustivi. Un sensore varia nella sua precisione. I governi sono spesso inclini a darti informazioni imparziali. I dati provenienti da una zona di guerra possono avere un forte pregiudizio geografico dovuto al suo contesto. Per peggiorare questa situazione, queste fonti sono spesso concatenate. Gli analisti politici ridistribuiscono frequentemente i dati ricevuti dal governo. I dati che sono stati scritti da un medico possono essere rilavorati da un&rsquo;infermiera. Ogni fase in quella catena è un&rsquo;opportunità d&rsquo;errore.</p>
-<p>Sempre sapere da dove arrivano i tuoi dati e come vengono trasformati.</p>
+<p>I dati sono creati da una una grande varietà di fonti tra cui: individui, organizzazioni, aziende, governi, non profit e, perché no, cospirazionisti.
+I dati vengono inoltre raccolti in modi diversi tra cui sondaggi, monitoraggio dei social media, sensori e satelliti. Può essere digitato, modificato o scarabocchiato. Sapere la provenienza dei dati significa saperne i limiti.</p>
+<p>I dati di un sondaggio, ad esempio, sono raramente esaustivi. Un sensore varia nella sua precisione. I governi sono spesso inclini a darti informazioni imparziali. I dati provenienti da una zona di guerra possono avere un forte pregiudizio geografico dovuto al suo contesto. Per complicare ulteriormente questa situazione, le fonti dati possono concatenarsi. Gli analisti politici ridistribuiscono frequentemente i dati ricevuti dal governo. I dati che sono stati scritti da un medico possono essere rilavorati da un&rsquo;infermiera. Ogni fase in quella catena è un&rsquo;opportunità d&rsquo;errore.</p>
+<p>E’ utile sapere sempre da dove arrivano i tuoi dati e come vengono trasformati.</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#unita-non-specificate">Unità non specificate</a></li>
 </ul>
 <h3 id="valori-sospetti-presenti">Valori sospetti presenti</h3>
-<p>Se vedi uno qualsiasi di questi valori nei tuoi dati, applica cautela:</p>
+<p>Se vedi uno di questi valori nei tuoi dati, applica cautela:</p>
 <p><strong>Numeri:</strong></p>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/65535_%28number%29"><code>65,535</code></a></li>
@@ -162,34 +167,36 @@ function OptanonWrapper() { }
 <li>US Cap <code>12345</code> (Schenectady, New York)</li>
 <li>US Cap <code>90210</code> (Beverly Hills, CA)</li>
 </ul>
-<p>Ognuno di questi numeri indica un particolare errore. Se li vedi, assicurati di verificare cosa realmente rappresentano.</p>
+<p>Ognuno di questi numeri indica un particolare errore. Se li vedi, assicurati di verificare cosa rappresentano realmente.</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#spreadsheet-has-65536-rows">Il foglio ha 65536 righe</a></li>
 <li><a href="#spreadsheet-has-255-columns">Il foglio ha 255 colonne</a></li>
-<li><a href="#spreadsheet-has-dates-in-1900-or-1904">Spreadsheet has dates in 1900 or 1904</a></li>
+<li><a href="#il-foglio-ha-date-nel-1900-1904-1969-o-1970">Il foglio ha date nel 1900, 1904, 1969 o 1970</a></li>
 </ul>
 <h3 id="dati-troppo-aggregati">Dati troppo aggregati</h3>
 <p>Ti trovi con regione e hai bisogno di province. Hai imprese e hai bisogno di dipendenti. Ti hanno dato anni ma vuoi mesi.</p>
 <p>I dati di solito non possono essere disaggregati una volta che sono stati aggregati insieme. Se ricevi un dataset troppo aggregato, dovrai chiedere alla tua fonte qualcosa di più specifico. Potrebbero non averlo. Se ce l&rsquo;hanno, potrebbero non essere in grado, o non essere disposti, a fornirtelo (ad esempio per motivi di privacy o di riservatezza). Tutto quello che puoi fare è chiedere.</p>
-<p>Una cosa che non dovresti mai fare è dividere un valore annuale entro 12 e considerarlo &ldquo;media mensile&rdquo;. Senza conoscere la distribuzione dei valori, quel numero sarà privo di significato. (Forse tutte le istanze si sono verificate in un mese o una stagione. Forse i dati seguono una tendenza esponenziale anziché lineare.).</p>
+<p>Una cosa che non dovresti mai fare è dividere un valore annuale in 12 e considerarlo &ldquo;media mensile&rdquo;. Senza conoscere la distribuzione dei valori, quel numero sarà privo di significato. (Forse tutte le istanze si sono verificate in un mese o una stagione. Forse i dati seguono una tendenza esponenziale anziché lineare.).</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#dati-troppo-granulari">Dati troppo granulari</a></li>
 <li><a href="#data-are-aggregated-to-the-wrong-categories-or-geographies">Data are aggregated to the wrong categories or geographies</a></li>
 </ul>
-<h3 id="le-somme-portano-risultati-diversi-dallaggregato">Le somme portano risultati diversi dall&rsquo;aggregato</h3>
-<p>Immagina di ricevere un set di dati con una lista di incidenti con 2.467 righe. Great, time to report it out. Not so fast. Before you publish anything from that dataset go find the last time that police chief went on the record about his department&rsquo;s use of force. You may find that in an interview six weeks earlier he said &ldquo;less than 2,000 times&rdquo; or that he named a specific number and it doesn&rsquo;t match your dataset.</p>
-<p>These sorts of discrepancies between published statistics and raw data can be a very great source of leads. Spesso la risposta è molto semplice. Per esempio, the data you were given may not cover the same time period he was speaking about. But sometimes you&rsquo;ll catch them in a lie. Either way, you should make sure the published numbers match the totals for the data you&rsquo;re given.</p>
+<h3 id="le-somme-del-dataset-portano-a-risultati-diversi-dallaggregato">Le somme del dataset portano a risultati diversi dall&rsquo;aggregato</h3>
+<p>Immagina di ricevere un dataset con una lista di casi di violenza da parte della polizia di 2.467 righe. Immagina che qualche settimana prima un portavoce ha riferito di meno di 2.000 casi di violenza, o comunque un qualsiasi numero che non <em>fitta</em> con il dataset che hai ricevuto.</p>
+<p>Queste discrepanze dai dati <em>raw</em> rispetto informazioni pubblicate grazie a questi dati sono un invito ad approfondire. A volte la risposta può essere una semplice differenza dell&rsquo;arco di tempo preso a disposizione. A volte è possibile che i dati vengono alterati di proposito.</p>
+<p>In sintesi, cerca di far tornare le somme.</p>
 <h3 id="il-foglio-ha-65536-righe">Il foglio ha 65.536 righe</h3>
 <p>Il numero massimo di righe di un foglio Excel per 2007 è 65.536. Se si riceve un set di dati con quel numero di righe, hai quasi certamente dei dati troncati. Dovrai chiedere alla tua fonte ti fornirti il resto dei dati. Le versioni più recenti di Excel arrivano fino 1.048.576 righe.</p>
 <h3 id="il-foglio-ha-255-colonne">Il foglio ha 255 colonne</h3>
-<p>L&rsquo;app Numbers di Apple può gestire solo i fogli di calcolo con 255 colonne, l&rsquo;app troncerà i file con più colonne senza avvisare l&rsquo;utente. Se si riceve un set di dati con esattamente 255 colonne, chiedi se il file è stato aperto o convertito con Apple Numbers.</p>
+<p><a href="https://www.apple.com/it/numbers/">Numbers</a> di Apple può gestire solo i fogli di calcolo con 255 colonne, l&rsquo;app troncherà i file con più colonne senza avvisare l&rsquo;utente. Se si riceve un set di dati con esattamente 255 colonne, chiedi se il file è stato aperto o convertito con Apple Numbers.</p>
 <h3 id="il-foglio-ha-date-nel-1900-1904-1969-o-1970">Il foglio ha date nel 1900, 1904, 1969 o 1970</h3>
-<p>Per strani motivi, la data di default di Excel è <code>January 1st, 1900</code>, <em>a meno che</em> non stai usando Excel sul Mac: in quel caso la data di default è <code>January 1st, 1904</code>. Ci sono una varietà di modi in cui i dati in Excel possono essere inseriti o calcolati in modo errato e finiscono come una di queste due date. Se li individui nei tuoi dati hai un problema.</p>
+<p>La data di default di Excel è <code>January 1st, 1900</code>, <em>a meno che</em> non stai usando Excel sul Mac: in quel caso la data di default è <code>January 1st, 1904</code>. Ci sono una varietà di modi in cui i dati in Excel possono essere inseriti o calcolati in modo errato e finiscono con una di queste due date. Se li individui nei tuoi dati potresti avere un problema.</p>
 <p>Alcuni database e applicazioni generano date come <code>1970-01-01T00:00:00Z</code> o <code>1969-12-31T23:59:59Z</code>, che è uno <a href="https://en.wikipedia.org/wiki/Unix_time#Encoding_time_as_a_number">timestamp  su Linux</a>. In altre parole, questo succede quando un sistema prova a mostrare un valore vuoto o uno <code>0</code> come una data.</p>
 <h3 id="testo-convertito-in-numeri">Testo convertito in numeri</h3>
-<p>Non tutti i numeri sono numeri. Ad esempio alcuni codici possono iniziare con un zero (es <code>037</code>), ma è un codice, <strong>non è un numero</strong>. Excel e altri fogli di calcolo come Google Sheet potranno facilmente sbagliare e considerare il valore come un numero, rimuovendone lo 0 iniziale. Questo può causare diversi problemi sia nella condivisione del dataset, sia nel <em>join</em> con altri dataset.</p>
+<p>Non tutti i numeri sono numeri. Ad esempio alcuni codici possono iniziare con un zero (es <code>037</code>), ma è un codice, <strong>non è un numero</strong>. Excel e altri fogli di calcolo come Google Sheet possono facilmente sbagliare e considerare il valore come un numero, rimuovendone lo 0 iniziale. Questo può causare diversi problemi sia nella condivisione del dataset, sia nel <em>join</em> con altri dataset.</p>
+<p>Un esempio classico è il CAP 00100 di Roma. Inserito in una colonna di un qualsiasi foglio di calcolo verrà trasformato nel numero 100 a meno che con si anteponga il carattere <code>'</code> (es <code>'00100</code>)</p>
 <h3 id="numeri-salvati-come-testo">Numeri salvati come testo</h3>
 <p>Quando si lavora con fogli di calcolo, i numeri possono essere memorizzati come testo. Ad esempio, invece di rappresentare un milione di dollari con il numero <code>1000000</code> una cella potrebbe contenere la stringa <code>1.000.000</code> o <code>1 000 000 000</code> o <code>USD 1.000.000</code>. Excel può correggere casi semplici con funzioni come <code>Testo in colonne</code>, ma per casi più complessi dovrai, più volte, rilavorare le colonne. Best practice è di memorizzare i numeri senza formattazione e includere le informazioni di supporto su colonne aggiuntive o sui metadati.</p>
 <h2 id="-problemi-che-puoi-risolvere-in-autonomia">🥷 Problemi che puoi risolvere in autonomia</h2>
@@ -205,7 +212,7 @@ function OptanonWrapper() { }
 <p>Tutti i file di testo utilizzano caratteri invisibili per rappresentare la fine della linee. I computer Windows, Mac e Linux hanno storicamente metodi diversi su come far terminare la linea. A volte aprire un file creato in un sistema operativo in un altro sistema operativo può portare a testi senza interruzioni di linea.</p>
 <p>In genere, questo problema si risolve facilmente usando un qualsiasi editor di testo pensato per la programmazione come Visual Studio Code e risalvando il file. Se il file è particolarmente grande potrebbe essere necessario l&rsquo;utilizzo di uno strumento a riga di comando o chiedendo aiuto ad un programmatore. Puoi leggere di più su questo problema <a href="https://nicercode.github.io/blog/2013-04-30-excel-and-line-endings/">qui</a>.</p>
 <h3 id="i-dati-sono-in-un-pdf">I dati sono in un PDF</h3>
-<p>Un&rsquo;enorme quantità di dati, in particolare dai governi, sono disponibili solo in formato PDF. Se hai dati all&rsquo;interno del PDF, ci sono diverse opzioni per estrarlo. (Se invece hai <a href="#data-are-in-scanned-documents">documenti scansionati</a>, questo è un altro problema) Un fantastico strumento, gratuito, si chiama <a href="http://tabula.technology/">Tabula</a>. Chi ha accesso ad Adobe Creative Cloud ha anche accesso ad Acrobat Pro che ha l&rsquo;abilità di portare tabelle dai PDF a Excel. Sempre più app e sistemi stanno integrando la possibilità di trasformare i PDF in testi.</p>
+<p>Un&rsquo;enorme quantità di dati, in particolare quelli forniti dai governi, sono disponibili solo in formato PDF. Se hai dati all&rsquo;interno del PDF, ci sono diverse opzioni per estrarlo. (Se invece hai <a href="#data-are-in-scanned-documents">documenti scansionati</a>, questo è un altro problema) Un fantastico strumento, gratuito, si chiama <a href="http://tabula.technology/">Tabula</a>. Chi ha accesso ad Adobe Creative Cloud ha anche accesso ad Acrobat Pro che ha l&rsquo;abilità di portare tabelle dai PDF a Excel. Sempre più app e sistemi stanno integrando la possibilità di trasformare i PDF in testi.</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#dati-presenti-in-documenti-scansionati">Dati presenti in documenti scansionati</a></li>
@@ -219,7 +226,7 @@ function OptanonWrapper() { }
 <li><a href="#data-are-aggregated-to-the-wrong-categories-or-geographies">Data are aggregated to the wrong categories or geographies</a>.</li>
 </ul>
 <h3 id="dati-inseriti-a-mano">Dati inseriti a mano</h3>
-<p>I dati inseriti a mano sono un problema così comune che in questa guida vencono citati in altri 10 casi. Non esiste un modo peggiore di registrare dei dati a mano senza un processo di verifica e convalida. Ad esempio un database ha permesso agli utenti di scrivere la razza del loro cane invece di sceglierla da un menà a tendina, trovandosi con 250 ortografie diverse di <code>Chihuahua</code>.</p>
+<p>I dati inseriti a mano sono un problema così comune che in questa guida vengono citati in altri 10 casi. Non esiste un modo peggiore di registrare dei dati a mano senza un processo di verifica e convalida. Ad esempio un database ha permesso agli utenti di scrivere la razza del loro cane invece di sceglierla da un menà a tendina, trovandosi con 250 ortografie diverse di <code>Chihuahua</code>.</p>
 <p>Anche con i migliori strumenti disponibili il problema può diventare ingestibile, e se i nomi della razza di un cane è un problema secondario, potresti trovarti lo stesso problema in situazioni più importanti.</p>
 <h3 id="i-dati-sono-mischiati-a-formattazioni-e-commenti">I dati sono mischiati a formattazioni e commenti</h3>
 <p>Formati come l&rsquo;XML permettano una separazione netta tra dato e presentazione, ma purtroppo questo non è il caso dei fogli di calcolo. Un problema molto comune nei documenti di Excel (e app simili) è che le righe possono contenere note e commenti sui dati stessi. A volte anche le intestazioni possono essere ripetute oppure il foglio contiene diverse tabelle con diverse intestazioni o con un diverso numero di colonne.</p>
@@ -236,26 +243,26 @@ function OptanonWrapper() { }
 <p>Un errore di campionamento non casuale avviene quando un&rsquo;indagine, o un altro set di dati campionati, non riescono a coprire l&rsquo;intera popolazione. Questo può succedere per una serie di motivi che possono essere intenzionali o accidentali. Per esempio può accadere quando un ricercatore pensa di avere un set di dati completo e ne estrae un campione. Se il set di dati originale è incompleto per un qualsiasi motivo, le conclusioni tratte dal campione non saranno corrette. Se il campione non è casuale è sconsigliato utilizzare quei dati.</p>
 <p>Vedi anche:</p>
 <ul>
-<li><a href="#sample-is-biased">Sample is biased</a></li>
+<li><a href="#bias-nel-campione">Bias nel campione</a></li>
 </ul>
 <h3 id="margine-derrore-troppo-grande">Margine d&rsquo;errore troppo grande</h3>
 <p>Il margine d&rsquo;errore (MOE) è spesso associato ai sondaggi. The MOE is a measure of the range of possible true values. Può essere espresso come un numero (<code>400 +/- 80</code>) o come una percentuale (<code>400 +/- 20%</code>). Più bassa è la popolazione rilevante, più alto il MOE sarà. Per esempio, nel 2015 si stimava che a New York vivessero <code>1,106,989 +/- 3,526</code> (0.3%) Asiatici. Il numero dei Filippini è <code>71,969 +/- 3,088</code> (4.3%). Il numero dei Samoani è <code>203 +/- 144</code> (71%).</p>
 <p>I primi due numeri possono essere riportati, il terzo proprio no. Regola generale è di non utilizzare nessun numero dove il margine d&rsquo;errore supera il 10%.</p>
 <p>Vedi anche:</p>
 <ul>
-<li><a href="#margin-of-error-is-unknown">Margine d&rsquo;errore sconosciuto</a></li>
+<li><a href="#margine-d-errore-sconosciuto">Margine d&rsquo;errore sconosciuto</a></li>
 </ul>
 <h3 id="margine-derrore-sconosciuto">Margine d&rsquo;errore sconosciuto</h3>
 <p>A volte il problema non è un margine d&rsquo;errore <a href="#margine-d-errore-troppo-grande">troppo grande</a>, ma che non è stato neanche calcolato, rappresentazione di un lavoro fatto nel minor modo scientifico possibile. Senza calcolare il MOE, è impossibile sapere quanto è accurato quel numero. Generalmente, ogni volta che ricevi i dati di un sondaggio, assicurati di avere il MOE o rifiuta completamente i dati.</p>
 <p>Vedi anche:</p>
 <ul>
-<li><a href="#margin-of-error-is-too-large">Margine d&rsquo;errore troppo grande</a></li>
+<li><a href="#margine-d-errore-troppo-grande">Margine d&rsquo;errore troppo grande</a></li>
 </ul>
-<h3 id="il-campione-è-prevenuto">Il campione è prevenuto</h3>
+<h3 id="bias-nel-campione">Bias nel campione</h3>
 <p>Come il <a href="#sample-is-not-random">campione non casuale</a>, anche un campione prevenuto è il risultato di uno scarso lavoro di campionatura, o, ancora peggio, con la volontà di guidare i risultati verso una direzione. Un campione potrebbe essere prevenuto perché è stato condotto su Internet e le fascie più povere non usano internet così frequentemente come le altre. I sondaggi devono essere attentamente ponderati per garantire che abbiano segmenti proporzionali di qualsiasi popolazione sia oggetto dei risultati. È quasi impossibile farlo perfettamente, quindi è molto facile farlo male.</p>
 <p>Vedi anche:</p>
 <ul>
-<li><a href="#sample-is-not-random">Campione non casuale</a></li>
+<li><a href="#campione-non-casuale">Campione non casuale</a></li>
 </ul>
 <h3 id="dati-modificati-manualmente">Dati modificati manualmente</h3>
 <p>Le modifiche a mano sono un problema quanto i <a href="#dati-inseriti-a-mano">dati inseriti a mano</a>. Spesso i dati vengono editati a mano per sistemare errori originariamente fatti dall&rsquo;inserimento a mano dei dati, e questo non è un problema grave finché la persona ha una buona conoscenza dei dati originali e del come e del perché li sta modificando. Provate a correggere il  cognome <code>Smit</code> in <code>Smith</code>. E se fosse giusto <code>Smit</code>?</p>
@@ -334,7 +341,7 @@ function OptanonWrapper() { }
 <h3 id="dati-presenti-in-documenti-scansionati">Dati presenti in documenti scansionati</h3>
 <p>Grazie agli open-data spesso governi ed enti pubblici sono tenuti a fornirti dati, anche se non vogliono. Una tattica molto comune da quest&rsquo;ultimi per ostacolare è di fornire scansioni o fotografie delle pagine. Questi possono essere file di immagine o, più probabile, dei PDF.</p>
 <p>È possibile estrarre il testo dalle immagini e convertirlo in dati. Questo è fatto attraverso un processo chiamato riconoscimento ottico-carattere (OCR). I software attuali possono essere accurati quasi al 100%, ma molto dipende dalla natura del documento. Ogni volta che usi un OCR per estrarre dei dati è consigliabile verificare che i risultati corrispondano all&rsquo;originale.</p>
-<p>Ci sono molti siti dove puoi caricare un documento per far fare il riconoscimento dei dati, ma ci sono anche strumenti gratuiti che un programmatore potrebbe essere in grado di utilizzare nei tuoi documenti specifici. Chiedi a loro quale sia la migliore strategia per i documenti che hai.</p>
+<p>Esistono dei siti dove puoi caricare un documento per far fare il riconoscimento dei dati, ma ci sono anche strumenti gratuiti che un programmatore potrebbe essere in grado di utilizzare nei tuoi documenti specifici. Chiedi a loro quale sia la migliore strategia per i documenti che hai.</p>
 <p>Vedi anche:</p>
 <ul>
 <li><a href="#i-dati-sono-in-un-pdf">I dati sono in un PDF</a></li>
@@ -344,6 +351,73 @@ function OptanonWrapper() { }
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 w-full py-4 md:py-8">
                     
+                    <h2>Indice</h2>
+                    <div>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#-problemi-risolvibili-dalla-fonte-dei-dati">🎁 Problemi risolvibili dalla fonte dei dati</a>
+      <ul>
+        <li><a href="#valori-mancanti">Valori mancanti</a></li>
+        <li><a href="#zero-sostituisce-valori-mancanti">Zero sostituisce valori mancanti</a></li>
+        <li><a href="#mancano-dati-che-sai-che-dovrebbero-esserci">Mancano dati che sai che dovrebbero esserci</a></li>
+        <li><a href="#righe-o-valori-duplicati">Righe o valori duplicati</a></li>
+        <li><a href="#spelling-inconsistente">Spelling inconsistente</a></li>
+        <li><a href="#ordine-dei-nomi-incoerente">Ordine dei nomi incoerente</a></li>
+        <li><a href="#formati-data-incoerenti">Formati data incoerenti</a></li>
+        <li><a href="#unità-non-specificate">Unità non specificate</a></li>
+        <li><a href="#categorie-scelte-approssimativamente">Categorie scelte approssimativamente</a></li>
+        <li><a href="#nomi-dei-campi-ambigui">Nomi dei campi ambigui</a></li>
+        <li><a href="#provenienza-non-documentata">Provenienza non documentata</a></li>
+        <li><a href="#valori-sospetti-presenti">Valori sospetti presenti</a></li>
+        <li><a href="#dati-troppo-aggregati">Dati troppo aggregati</a></li>
+        <li><a href="#le-somme-del-dataset-portano-a-risultati-diversi-dallaggregato">Le somme del dataset portano a risultati diversi dall&rsquo;aggregato</a></li>
+        <li><a href="#il-foglio-ha-65536-righe">Il foglio ha 65.536 righe</a></li>
+        <li><a href="#il-foglio-ha-255-colonne">Il foglio ha 255 colonne</a></li>
+        <li><a href="#il-foglio-ha-date-nel-1900-1904-1969-o-1970">Il foglio ha date nel 1900, 1904, 1969 o 1970</a></li>
+        <li><a href="#testo-convertito-in-numeri">Testo convertito in numeri</a></li>
+        <li><a href="#numeri-salvati-come-testo">Numeri salvati come testo</a></li>
+      </ul>
+    </li>
+    <li><a href="#-problemi-che-puoi-risolvere-in-autonomia">🥷 Problemi che puoi risolvere in autonomia</a>
+      <ul>
+        <li><a href="#il-testo-è-confuso">Il testo è confuso</a></li>
+        <li><a href="#interruzioni-di-linea-mancanti">Interruzioni di linea mancanti</a></li>
+        <li><a href="#i-dati-sono-in-un-pdf">I dati sono in un PDF</a></li>
+        <li><a href="#dati-troppo-granulari">Dati troppo granulari</a></li>
+        <li><a href="#dati-inseriti-a-mano">Dati inseriti a mano</a></li>
+        <li><a href="#i-dati-sono-mischiati-a-formattazioni-e-commenti">I dati sono mischiati a formattazioni e commenti</a></li>
+        <li><a href="#calcoli-fatti-su-valori-mancanti">Calcoli fatti su valori mancanti</a></li>
+        <li><a href="#campione-non-casuale">Campione non casuale</a></li>
+        <li><a href="#margine-derrore-troppo-grande">Margine d&rsquo;errore troppo grande</a></li>
+        <li><a href="#margine-derrore-sconosciuto">Margine d&rsquo;errore sconosciuto</a></li>
+        <li><a href="#bias-nel-campione">Bias nel campione</a></li>
+        <li><a href="#dati-modificati-manualmente">Dati modificati manualmente</a></li>
+        <li><a href="#inflazione-altera-i-dati">Inflazione altera i dati</a></li>
+        <li><a href="#stagionalità-variano-i-dati">Stagionalità variano i dati</a></li>
+        <li><a href="#contesto-manipolato">Contesto manipolato</a></li>
+      </ul>
+    </li>
+    <li><a href="#-problemi-dove-un-esperto-può-aiutarti">🥼 Problemi dove un esperto può aiutarti</a>
+      <ul>
+        <li><a href="#autore-del-dataset-non-affidabile">Autore del dataset non affidabile</a></li>
+        <li><a href="#processo-di-raccolta-troppo-vago">Processo di raccolta troppo vago</a></li>
+        <li><a href="#precisione-irrealistica">Precisione irrealistica</a></li>
+        <li><a href="#outliers-inspiegabili">Outliers inspiegabili</a></li>
+        <li><a href="#lindice-nasconde-le-variazioni-nei-dati">L&rsquo;indice nasconde le variazioni nei dati</a></li>
+        <li><a href="#p-hacking">P-Hacking</a></li>
+        <li><a href="#legge-di-benford">Legge di Benford</a></li>
+        <li><a href="#troppo-bello-per-essere-vero">Troppo bello per essere vero</a></li>
+      </ul>
+    </li>
+    <li><a href="#-problemi-risolvibili-da-un-programmatore">🧑‍💻 Problemi risolvibili da un programmatore</a>
+      <ul>
+        <li><a href="#dati-aggregati-nelle-categorie-sbagliate">Dati aggregati nelle categorie sbagliate</a></li>
+        <li><a href="#dati-presenti-in-documenti-scansionati">Dati presenti in documenti scansionati</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </div>
                 </div>
             </div>
         </div>
