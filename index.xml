@@ -70,5 +70,16 @@ Uno dei benefici è modellare questa visione come un funnel guidato da seleziona
 QZ, uno dei miei preferiti portali di notizie, ha pubblicato una guida su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</description>
     </item>
     
+    <item>
+      <title>Privacy nella digital analytics</title>
+      <link>https://denisrasia.com/cookie-management-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/cookie-management-platform/</guid>
+      <description>Parlare di privacy nel mondo digitale è un ossimoro, ma è importante capire i confini di entrambi i mondi.
+Con la digital analytics partiamo da un dato anonimo aggregato fornito da un cookie tecnico, un digital analyst sa quante persone entrano / cliccano / consultano una pagina, ma non ha la minima idea di informazioni personali come nome, cognome, sesso, età.
+Esempio: attivare la funzione demografica di Google Analytics fornisce una stima della demografia e dei suoi interessi.</description>
+    </item>
+    
   </channel>
 </rss>
