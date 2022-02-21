@@ -35,7 +35,7 @@ La domanda successiva dovrebbe essere: che persona sono quando ho i dati?</descr
       
       <guid>https://denisrasia.com/citofonare/</guid>
       <description>      Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR.
-Invia  </description>
+Invia   var ele = document.getElementById(&#39;contactform&#39;); if(ele.addEventListener){ ele.addEventListener(&#34;submit&#34;, segmentIdentify, false); }else if(ele.attachEvent){ ele.attachEvent(&#39;onsubmit&#39;, segmentIdentify); } function segmentIdentify() { thisForm = document.getElementById(&#39;contactform&#39;); analytics.identify({ name: thisForm.nome.value, company: thisForm.azienda.value, email: thisForm.email.value }); }  </description>
     </item>
     
     <item>

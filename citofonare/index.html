@@ -100,22 +100,22 @@
                             
 
 
-<form method="post" action="https://forms.un-static.com/forms/5d3acd50e9226ef899948673bf6ad59d0d8d3cf4" class="w-full max-w-sm">
+<form method="post" action="https://forms.un-static.com/forms/5d3acd50e9226ef899948673bf6ad59d0d8d3cf4" class="w-full max-w-sm" id="contactform">
 
   <div class="border-b py-2">
-    <input class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nome e cognome" aria-label="Nome e cognome">
+    <input class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" name="nome" placeholder="Nome e cognome" aria-label="Nome e cognome">
   </div>
 
   <div class="border-b py-2">
-    <input class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Azienda" aria-label="Azienda">
+    <input class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" name="azienda" placeholder="Azienda" aria-label="Azienda">
   </div>
 
   <div class="border-b py-2">
-    <input class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" placeholder="Indirizzo email" aria-label="Indirizzo email">
+    <input class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" name="email" placeholder="Indirizzo email" aria-label="Indirizzo email">
   </div>
 
 <div class="border-b py-2">
-    <textarea class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Messaggio" aria-label="Messaggio"></textarea>
+    <textarea class="border-none bg-mygray w-full text-gray-800 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" name="messaggio" placeholder="Messaggio" aria-label="Messaggio"></textarea>
   </div>
 
 <p>Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR.</p>
@@ -123,6 +123,27 @@
 <button class="bg-mygray hover:bg-myblue hover:text-mygray border-myblue hover:border-myblue text-sm border-2 text-myblue py-1 bt-2 px-2 rounded" type="submit">Invia</button>
 
 </form>
+
+<script>
+
+var ele = document.getElementById('contactform');
+if(ele.addEventListener){
+    ele.addEventListener("submit", segmentIdentify, false);
+}else if(ele.attachEvent){
+    ele.attachEvent('onsubmit', segmentIdentify);
+}
+
+function segmentIdentify() {
+  thisForm = document.getElementById('contactform');
+
+  analytics.identify({
+    name: thisForm.nome.value,
+    company: thisForm.azienda.value,
+    email: thisForm.email.value
+  });
+
+}
+</script>
 
 
 </p>
