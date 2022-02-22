@@ -142,6 +142,10 @@ function segmentIdentify() {
     email: thisForm.email.value
   });
 
+  analytics.track("Form contatto inviato");
+
+  window.dataLayer.push({'event': 'contactFormSent'});
+
 }
 </script>
 
