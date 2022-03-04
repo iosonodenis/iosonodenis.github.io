@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Denis Rasia on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
+    <title>Consulente digital analytics e customer data platform on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
     <link>https://denisrasia.com/</link>
-    <description>Recent content in Denis Rasia on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</description>
+    <description>Recent content in Consulente digital analytics e customer data platform on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language><atom:link href="https://denisrasia.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/analytics-translator/</guid>
-      <description>Non tutti i dati sono uguali È un periodo di abbondanza di dati e delle fonti che li generano. La famosa citazione di Clive Humby: data is the new oil, ricorda che sono estremamente preziosi ma anche scivolosi.
+      <description>Non tutti i dati sono uguali La famosa citazione di Clive Humby: data is the new oil, ricorda che sono estremamente preziosi ma anche scivolosi.
 Non tutti i dati sono uguali. Si dice che non mentono mai, ma possono nascere da errori, problemi e bias.
 C’è inoltre un processo di democraticizzazione dell’accesso ai dati dove sempre più aziende (Adobe, Tableau, Microsoft, ad esempio) forniscono strumenti per accedere in maniera autonoma alle informazioni.</description>
     </item>
@@ -39,15 +39,6 @@ Invia   var ele = document.getElementById(&#39;contactform&#39;); if(ele.addEven
     </item>
     
     <item>
-      <title>citofonare</title>
-      <link>https://denisrasia.com/emailinviata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/emailinviata/</guid>
-      <description>Illustration by Alex Pale.</description>
-    </item>
-    
-    <item>
       <title>Cookie e Privacy Policy</title>
       <link>https://denisrasia.com/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -59,13 +50,13 @@ Impostazioni dei cookie I cookie utilizzati sono:
     </item>
     
     <item>
-      <title>Customer Data Platform</title>
+      <title>Customer Data</title>
       <link>https://denisrasia.com/customer-data-platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/customer-data-platform/</guid>
-      <description>Una customer data platform (nota anche come CDP) è un servizio che combina i dati dei clienti, provenienti da più fonti, in un unico posto.
-Le customer data platform sono uno dei tanti prodotti Saas che tentano di unificare i dati dei clienti. Uno studio di Oxford ha riscontrato che il 29% dei dirigenti aziendali afferma che hanno difficoltà a ricavare insights dalle informazioni raccolte. E il 70% dichiarano che vogliono ottenere approfondimenti dai dati dei clienti utilizzando gli strumenti di analytics.</description>
+      <description>Introduzione alla Customer Data Platform Una customer data platform (nota anche come CDP ) è un servizio che combina i dati dei clienti, provenienti da più fonti, in un unico ambiente di lavoro.
+Le customer data platform sono uno dei tanti prodotti Saas che tentano di unificare i dati dei clienti. Uno studio di Oxford ha riscontrato che il 29% dei dirigenti aziendali afferma che hanno difficoltà a ricavare insights dalle informazioni raccolte.</description>
     </item>
     
     <item>
@@ -74,13 +65,13 @@ Le customer data platform sono uno dei tanti prodotti Saas che tentano di unific
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/digital-analytics/</guid>
-      <description>Nella definizione classica la digital analytics è lo studio dei dati di comportamento online degli utenti per avere una rappresentazione numerica sugli utilizzatori, sul prodotto e sul business.
-Ad esempio fornisce una rappresentazione diretta sul fit del proprio prodotto nel mercato: quanti utenti tornano nella seconda settimana?
-Uno dei benefici è modellare questa visione come un funnel guidato da selezionati KPI: quando questi crescono cresce anche il business, quando il funnel sembra interrompersi c’è un qualcosa che non va.</description>
+      <description>Ho scelto di lavorare come digital analyst perché nella corsa dell&amp;rsquo;always deliver credo che sia importante sapere cosa ho fatto e perché ho fatto.
+Ad esempio:
+ Quanti utenti tornano nella seconda settimana dopo il primo accesso? Questa è un&amp;rsquo;indicazione del mio fit nel mercato Dove si interrompe il funnel? I kpi crescono con il business? Qui si capisce se si stanno monitorando i kpi giusti.  Tre cardini sulla digital analytics La digital analytics è focalizzata sui prodotti digitali: siti web e app native.</description>
     </item>
     
     <item>
-      <title>Guida ai dati problematici</title>
+      <title>Guida ai dati</title>
       <link>https://denisrasia.com/risorse/guida-dati-problematici/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -90,11 +81,31 @@ QZ, uno dei miei preferiti portali di notizie, ha pubblicato una guida su come i
     </item>
     
     <item>
-      <title>Privacy nella digital analytics</title>
-      <link>https://denisrasia.com/cookie-management-platform/</link>
+      <title>ha suonato</title>
+      <link>https://denisrasia.com/emailinviata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/cookie-management-platform/</guid>
+      <guid>https://denisrasia.com/emailinviata/</guid>
+      <description> Illustrazione di Alex Pale
+  </description>
+    </item>
+    
+    <item>
+      <title>L&#39;insostenibile leggerezza del data driven</title>
+      <link>https://denisrasia.com/data-driven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/data-driven/</guid>
+      <description>Cosa hanno in comune un test di Rorschach e un set di dati? Tutto. Come in 10 tavole di macchie la mente umana riesce ad associarcila madre, in un dataset la mente umana riesce a trovare i pattern che sperava, inconsciamente o meno, di trovarci dentro.
+Dovrei essere in grado di prendere una decisione oggi, con i dati di oggi. E l&amp;rsquo;azione non è mi servono ancora più dati (ma di più su questo dopo)</description>
+    </item>
+    
+    <item>
+      <title>Marketing in un mondo privacy-first</title>
+      <link>https://denisrasia.com/consent-management-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/consent-management-platform/</guid>
       <description>Parlare di privacy nel mondo digitale è un ossimoro, ma è importante capire i confini di entrambi i mondi.
 Con la digital analytics partiamo da un dato anonimo aggregato fornito da un cookie tecnico, un digital analyst sa quante persone entrano / cliccano / consultano una pagina, ma non ha la minima idea di informazioni personali come nome, cognome, sesso, età.
 Esempio: attivare la funzione demografica di Google Analytics fornisce una stima della demografia e dei suoi interessi.</description>
