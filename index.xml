@@ -111,5 +111,16 @@ Con la digital analytics partiamo da un dato anonimo aggregato fornito da un coo
 Esempio: attivare la funzione demografica di Google Analytics fornisce una stima della demografia e dei suoi interessi.</description>
     </item>
     
+    <item>
+      <title>Mobile</title>
+      <link>https://denisrasia.com/mobile-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/mobile-analytics/</guid>
+      <description>Che cos&amp;rsquo;è la Mobile Analytics La mobile analytics è una parte della digital analytics dedicata all&amp;rsquo;analisi del traffico e del comportamento degli utenti nelle app native per Android e iOS.
+Questo avviene grazie alle librerie di Firebase Analytics, Mixpanel, o anche grazie alla libreria di una Customer Data Platform come Segment.
+Rispetto alla digital analytics, le app mobile utilizzano linguaggi diversi da quelli del web e hanno bisogno di un&amp;rsquo;implementazione dedicata per poter raccogliere i dati di navigazione.</description>
+    </item>
+    
   </channel>
 </rss>
