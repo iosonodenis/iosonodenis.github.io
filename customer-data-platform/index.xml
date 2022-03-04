@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customer Data on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
+    <link>https://denisrasia.com/customer-data-platform/</link>
+    <description>Recent content in Customer Data on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language><atom:link href="https://denisrasia.com/customer-data-platform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raccolta dati in una</title>
+      <link>https://denisrasia.com/customer-data-platform/raccolta-dati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/customer-data-platform/raccolta-dati/</guid>
+      <description>Customer Data Platform in concreto La CDP  lavora su 4 pilastri:
+ Connettere piattaforme con canali Governare i dati, classificandoli e rendendoli consistenti Sintetizzare i dati per creare una fonte di verità Attivare i dati in operatività, sincronizzandoli in tempo reale con la marketing automation  Connettere e governare: la raccolta del dato Con piattaforme che tendono a ragionare per silo abbiamo il rischio di ambiguità delle metriche e di frammentazione del dato.</description>
+    </item>
+    
+  </channel>
+</rss>
