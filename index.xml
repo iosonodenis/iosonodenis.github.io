@@ -18,14 +18,14 @@ C’è inoltre un processo di democraticizzazione dell’accesso ai dati dove se
     </item>
     
     <item>
-      <title>Chiarezza</title>
-      <link>https://denisrasia.com/chiarezza/</link>
+      <title>Carta dei</title>
+      <link>https://denisrasia.com/kpi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/chiarezza/</guid>
-      <description>Senza dati sei solo una persona con un’opinione La citazione di Edward Deming è spesso usata per indicare quanto le informazioni siano importanti per argomentare il proprio pensiero. Ed è vero: i dati ti separano dalla chiacchiera da bar.
-Il solo in quella frase è un diminutivo: fa intuire che senza numeri, grafici, confronti, il tuo pensiero conta fino ad un certo punto.
-La domanda successiva dovrebbe essere: che persona sono quando ho i dati?</description>
+      <guid>https://denisrasia.com/kpi/</guid>
+      <description>Cosa sono i KPI KPI è l&amp;rsquo;acronimi di Key Performance Indicator e, come dice esplicitamente il nome, sono dei numeri che sintetizzano l&amp;rsquo;andamento di un particolare argomento.
+L&amp;rsquo;utilità del KPI è buona quanto la domanda a cui risponde, e quanto sono chiare le azioni di default e le azioni alternative (più su questo in futuro).
+Non tutte le metriche sono state pensate uguali, e lo stesso indicatore può avere gradi di utilità diversi a seconda di dove viene applicato (useresti MPH in un paese Europeo?</description>
     </item>
     
     <item>
@@ -50,13 +50,12 @@ Impostazioni dei cookie I cookie utilizzati sono:
     </item>
     
     <item>
-      <title>Customer Data</title>
-      <link>https://denisrasia.com/customer-data-platform/</link>
+      <title>Cosa puoi fare con la</title>
+      <link>https://denisrasia.com/customer-data-platform/cosa-puoi-fare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/customer-data-platform/</guid>
-      <description>Introduzione alla Customer Data Platform Una customer data platform (nota anche come CDP ) è un servizio che combina i dati dei clienti, provenienti da più fonti, in un unico ambiente di lavoro.
-Le customer data platform sono uno dei tanti prodotti Saas che tentano di unificare i dati dei clienti. Uno studio di Oxford ha riscontrato che il 29% dei dirigenti aziendali afferma che hanno difficoltà a ricavare insights dalle informazioni raccolte.</description>
+      <guid>https://denisrasia.com/customer-data-platform/cosa-puoi-fare/</guid>
+      <description>Inserire qui idee / ricette di cosa si può fare con la CDP.</description>
     </item>
     
     <item>
@@ -110,6 +109,27 @@ Esempio: attivare la funzione demografica di Google Analytics fornisce una stima
       <description>Che cos&amp;rsquo;è la Mobile Analytics La mobile analytics è una parte della digital analytics dedicata all&amp;rsquo;analisi del traffico e del comportamento degli utenti nelle app native per Android e iOS.
 Questo avviene grazie alle librerie di Firebase Analytics, Mixpanel, o anche grazie alla libreria di una Customer Data Platform come Segment.
 Rispetto alla digital analytics, le app mobile utilizzano linguaggi diversi da quelli del web e hanno bisogno di un&amp;rsquo;implementazione dedicata per poter raccogliere i dati di navigazione.</description>
+    </item>
+    
+    <item>
+      <title>Perché la</title>
+      <link>https://denisrasia.com/chiarezza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/chiarezza/</guid>
+      <description>Senza dati sei solo una persona con un’opinione (wait) La citazione di Edward Deming è spesso usata per indicare quanto le informazioni siano importanti per argomentare il proprio pensiero. Ed è vero: i dati ti separano dalla chiacchiera da bar.
+Il solo in quella frase è un diminutivo: fa intuire che senza numeri, grafici, confronti, il tuo pensiero conta fino ad un certo punto.
+La domanda successiva dovrebbe essere: che persona sono quando ho i dati?</description>
+    </item>
+    
+    <item>
+      <title>Raccolta dati in una</title>
+      <link>https://denisrasia.com/customer-data-platform/raccolta-dati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/customer-data-platform/raccolta-dati/</guid>
+      <description>Customer Data Platform in concreto La CDP  lavora su 4 pilastri:
+ Connettere piattaforme con canali Governare i dati, classificandoli e rendendoli consistenti Sintetizzare i dati per creare una fonte di verità Attivare i dati in operatività, sincronizzandoli in tempo reale con la marketing automation  Connettere e governare: la raccolta del dato Con piattaforme che tendono a ragionare per silo abbiamo il rischio di ambiguità delle metriche e di frammentazione del dato.</description>
     </item>
     
   </channel>
