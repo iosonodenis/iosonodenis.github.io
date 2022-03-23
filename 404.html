@@ -4,13 +4,14 @@
   
   <title>404 Page not found   | 👋 Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
   
-  <script src="https://www.googleoptimize.com/optimize.js?id=OPT-W42KQG5"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   
+  
 
 
   
-  <link rel="stylesheet" href="https://denisrasia.com/css/styles.min.6d9c53ced498a4a65f8cea02242360335363cdf4c07a485627afa67ab6b89e9c.css" integrity="sha256-bZxTztSYpKZfjOoCJCNgM1NjzfTAekhWJ6+mera4npw=">
+  <link rel="stylesheet" href="https://denisrasia.com/css/styles.min.8a3406067b19e26a49d3591a22d053ab6e8c26a6cceb6026317e63b96aa3e61e.css" integrity="sha256-ijQGBnsZ4mpJ01kaItBTq26MJqbM62AmMX5juWqj5h4=">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -48,6 +49,32 @@ function OptanonWrapper() { }
    
 
 
+  <script>
+    
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia(
+        '(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+
+    
+    localStorage.theme = 'light'
+
+    
+    localStorage.theme = 'dark'
+
+    
+    localStorage.removeItem('theme')
+
+    function toggleDarkMode() {
+  var element = document.getElementById("parent");
+  element.classList.toggle("dark");
+}
+
+
+  </script>
+
   
   
 
@@ -70,21 +97,16 @@ function OptanonWrapper() { }
   <meta name="url" content="https://denisrasia.com/404.html" />
   <meta name="twitter:url" content="https://denisrasia.com/404.html" /> 
   <meta property="og:url" content="https://denisrasia.com/404.html" />
-</head><body class="bg-gray dark:bg-oxfordblue">
-    <div class="h-screen flex flex-col ml-10 mr-10 mt-10">
+</head><body class="bg-platinum dark:bg-raisinblack">
+    <div class="h-screen flex flex-col ml-10 mr-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8">
                 
-                <header>
-    <div class="mx-auto flex max-w-7xl items-center justify-between p-4">
-      <nav class="hidden items-center space-x-1 text-sm font-medium md:flex">
-       
-      </nav>
-     
-      <a class="text-blue dark:text-gray hover:text-indigo dark:hover:text-gray" href="https://denisrasia.com/">denisrasia.com</a>
-      <nav class="flex items-center space-x-1 text-sm font-medium">
-       
-      </nav>
-    </div>
-  </header>
+                <header class="">
+	<div class="container flex justify-center h-16 mx-auto">
+    <a class="text-charcoal dark:text-platinum flex items-center p-2" href="https://denisrasia.com/">denisrasia.com</a>
+		
+		
+	</div>
+</header>
         <div class="flex items-center flex-col justify-center lg:flex-row py-28 px-6 md:px-24 md:py-20 lg:py-32 gap-16 lg:gap-28">
             <div class="w-full lg:w-1/2">
                 <img class="hidden lg:block" src="/img/404.png" />
@@ -98,11 +120,11 @@ function OptanonWrapper() { }
                 <button class="w-full lg:w-auto my-4 border rounded-md px-1 sm:px-16 py-5 bg-indigo-600 text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">Vai alla home</button>
             </div>
         </div>
-<footer class="mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between space-y-6 space-y-reverse px-4 py-10 text-sm font-medium text-gray-500 md:flex-row md:items-start md:space-y-0">
-      <div class="flex items-center space-x-4 text-blue dark:text-gray">
+<footer class="mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between space-y-6 space-y-reverse px-4 py-10 md:flex-row md:items-start md:space-y-0">
+      <div class="flex items-center space-x-4 text-gunmetal dark:text-platinum">
         <img src="/img/ritratto_denis_bn-sm.webp" width="50px" height="50px" alt="" />
-        <p>denisrasia.com &copy; | 2021-2022
-        <br />  <a href="/citofonare/">citofonare@denisrasia.com</a><br/>
+        <p class="text-xs">denisrasia.com | consulente digital analytics | &copy; 2021-2022
+        <br /><a href="/citofonare/">citofonare@denisrasia.com</a><br/>
         🍪 Questo sito utilizza dei <a href="/cookie">cookie</a> tecnici per raccogliere informazioni sul vostro percorso di navigazione.</br>
       </p>
       </div>
