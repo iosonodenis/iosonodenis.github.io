@@ -58,6 +58,20 @@
                 href="https://denisrasia.com/en/customer-data-platform/"
                 />
   </url><url>
+    <loc>https://denisrasia.com/en/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/"
+                />
+  </url><url>
     <loc>https://denisrasia.com/en/digital-analytics/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -126,20 +140,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://denisrasia.com/en/risorse/"
-                />
-  </url><url>
-    <loc>https://denisrasia.com/en/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://denisrasia.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://denisrasia.com/en/"
                 />
   </url><url>
     <loc>https://denisrasia.com/en/tags/</loc>
