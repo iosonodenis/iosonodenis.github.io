@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search for clarity in any touchpoint on Denis Rasia | Digital Analytics Consultant &amp; Customer Data Platform</title>
+    <link>https://denisrasia.com/en/</link>
+    <description>Recent content in Search for clarity in any touchpoint on Denis Rasia | Digital Analytics Consultant &amp; Customer Data Platform</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language><atom:link href="https://denisrasia.com/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Citofonare, grazie</title>
+      <link>https://denisrasia.com/en/contatto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/contatto/</guid>
+      <description>Informazioni personali
+Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
+ Nome e cognome  Azienda  Email  Messaggio  Invia       var ele = document.getElementById(&#39;contactform&#39;); if(ele.addEventListener){ ele.addEventListener(&#34;submit&#34;, segmentIdentify, false); }else if(ele.attachEvent){ ele.attachEvent(&#39;onsubmit&#39;, segmentIdentify); } function segmentIdentify() { thisForm = document.getElementById(&#39;contactform&#39;); analytics.identify({ name: thisForm.nome.value, company: thisForm.azienda.value, email: thisForm.</description>
+    </item>
+    
+    <item>
+      <title>Cookie and Privacy Policy</title>
+      <link>https://denisrasia.com/en/cookie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/cookie/</guid>
+      <description>Privacy policy super short I have no idea who you are, just how many of you are (until you fill out a form with your email)
+This site uses web analytics tools to know how many people arrive and visit its pages.
+Cookie settings  </description>
+    </item>
+    
+    <item>
+      <title>Customer Data Platform</title>
+      <link>https://denisrasia.com/en/customer-data-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/customer-data-platform/</guid>
+      <description>Customer Data Platform A customer data platform (also known as CDP) is a service that combines customer data from multiple sources into a single work environment.
+CDP, with its holistic approach, helps all teams in a digital project:
+ Development -&amp;gt; ETL hands over to CDP -&amp;gt; team focus on key functionalities Marketing -&amp;gt; personas and segments in real time -&amp;gt; campaign optimization Data &amp;amp; Analytics -&amp;gt; solidity in data collection -&amp;gt; unified analysis Product -&amp;gt; reduction of the silo model -&amp;gt; focus on the development of experiences and functionalities  Being customer centric is a data problem The centrality of the customer, in the digital world, is a data problem: both due to the tendency of platforms to think in silos, for physiological reasons of digital (to consider one the same user who uses both the app and the site, one must prepare the measurement) and for the sunset of third-party cookies.</description>
+    </item>
+    
+    <item>
+      <title>Digital Analytics</title>
+      <link>https://denisrasia.com/en/digital-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/digital-analytics/</guid>
+      <description>A word about digital analytics Analytics are primarily a business necessity. The need to know the history of your users when they come into contact with your company.
+It is a story represented quantitatively, and as valid as the questions that created this story.
+Why a digital analytics advisor A digital analytics consultant aligns digital presence with business goals.
+This means finding out what information should be collected and how it can be applied to opportunities and outcomes.</description>
+    </item>
+    
+    <item>
+      <title>Get in touch</title>
+      <link>https://denisrasia.com/en/emailinviata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/emailinviata/</guid>
+      <description> Illustrazione di Alex Pale
+  </description>
+    </item>
+    
+    <item>
+      <title>Identity Resolution</title>
+      <link>https://denisrasia.com/en/identity-resolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/identity-resolution/</guid>
+      <description>Identity resolution Identity resolution is the process of matching identifiers between multiple devices and contact points towards a single profile. It helps create a consistent and omnichannel vision of a consumer, allowing companies to unify data for digital marketing analysis and to optimize campaigns throughout the user journey.
+With the decline of cookies it is important, with respect for the privacy of users, to combine digital entities with identifying traits such as an email or a telephone number.</description>
+    </item>
+    
+    <item>
+      <title>Marketing in a privacy-first world</title>
+      <link>https://denisrasia.com/en/consent-management-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/consent-management-platform/</guid>
+      <description>Privacy First After years of invasive data collection, it&amp;rsquo;s clear: people want control over their data and respect for their privacy.
+The GDPR and ePrivacy regulations specify that cookies can be read / written only after explicit consent from the user, this results in less data collected.
+Talking about digital privacy might sounds as an oxymoron, you should find the right balance between respect for people and business objectives.
+Privacy by design Considering privacy by design in digital analytics is important:</description>
+    </item>
+    
+    <item>
+      <title>Universal Analytics e GA4</title>
+      <link>https://denisrasia.com/en/risorse/il-nuovo-ga4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/risorse/il-nuovo-ga4/</guid>
+      <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
+Questo significa che:
+ dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
+    </item>
+    
+    <item>
+      <title>Who is Denis</title>
+      <link>https://denisrasia.com/en/consulente-digital-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/consulente-digital-analytics/</guid>
+      <description>Denis Rasia is a digital analytics advisor, he works based in Treviso and deals with consulting for companies and companies throughout Italy.
+His work experience has led him to collaborate with brands and agencies to translate the need for analysis and reporting focused on digital activities. The proposed solutions are: In his work experience he has worked with brands and agencies to translate the analysis and reporting needs of digital activities into technical solutions such as:</description>
+    </item>
+    
+  </channel>
+</rss>

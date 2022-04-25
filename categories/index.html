@@ -4,19 +4,20 @@
   
   <title>Categories | Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  
 
+  <meta charset="utf-8" />
   
   
-
+    
+    <link rel="stylesheet" href="https://denisrasia.com/css/styles.min.711eef255c19b6e301ea30ea35fe81ee0e99c1b761c021842779549f56cfe1bb.css" integrity="sha256-cR7vJVwZtuMB6jDqNf6B7g6ZwbdhwCGEJ3lUn1bP4bs=">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> 
 
   
-  <link rel="stylesheet" href="https://denisrasia.com/css/styles.min.8a3406067b19e26a49d3591a22d053ab6e8c26a6cceb6026317e63b96aa3e61e.css" integrity="sha256-ijQGBnsZ4mpJ01kaItBTq26MJqbM62AmMX5juWqj5h4=">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 
 
 
@@ -99,58 +100,126 @@ function OptanonWrapper() { }
   <meta name="url" content="https://denisrasia.com/categories/" />
   <meta name="twitter:url" content="https://denisrasia.com/categories/" /> 
   <meta property="og:url" content="https://denisrasia.com/categories/" />
-</head><body class="bg-platinum dark:bg-raisinblack">
-    <div class="h-screen flex flex-col ml-10 mr-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8">
-                
-                <header class="">
-	<div class="container flex justify-between h-16 mx-auto">
-    <a class="text-charcoal dark:text-platinum flex items-center p-2" href="https://denisrasia.com/">denisrasia.com</a>
-		<ul class="items-stretch hidden space-x-3 md:flex">
-			<li class="flex">
-				<a rel="noopener noreferrer" href="/digital-analytics/" class="text-charcoal dark:text-platinum text-sm flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Digital Analytics</a>
-			</li>
-			<li class="flex">
-				<a rel="noopener noreferrer" href="/identity-resolution/" class="text-charcoal dark:text-platinum text-sm flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Identity Resolution</a>
-			</li>
-			<li class="flex">
-				<a rel="noopener noreferrer" href="/customer-data-platform/" class="text-charcoal dark:text-platinum text-sm flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-teal-400 dark:border-teal-400">Customer Data Platform</a>
-			</li>
-			<li class="flex">
-				<a rel="noopener noreferrer" href="/consent-management-platform/" class="text-charcoal dark:text-platinum flex text-sm items-center px-4 -mb-1 border-b-2 dark:border-transparent">Privacy First</a>
-			</li>
-		</ul>
-		
-	</div>
-</header>
-<main>
-    <article>
-        <section>
-            <div>
-              <div class="container flex flex-col items-center px-4 pt-2 pb-24 mx-auto text-center md:pt-20">
-                <h1 class="text-6xl lg:text-9xl font-bold mix-blend-lighten text-platinum dark:text-platinum">Categories</h1>
-                <p class="mt-20 mb-2 text-lg sm:mb-12 xl:max-w-3xl text-platinum dark:text-platinum font-bold drop-shadow-md"></p>
-                <div class="flex flex-wrap justify-center">
-                  
-                  
-                  
-                </div>
-              </div>
-            </div>
-          </section>
+</head><section class="py-16">
 
-    </article>
-    
-    
-</main>
-<footer class="mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between space-y-6 space-y-reverse px-4 py-10 md:flex-row md:items-start md:space-y-0">
-      <div class="flex items-center space-x-4 text-gunmetal dark:text-platinum">
-        <img src="/img/ritratto_denis_bn-sm.webp" width="50px" height="50px" alt="" />
-        <p class="text-xs">denisrasia.com | consulente digital analytics | &copy; 2021-2022
-        <br /><a href="/citofonare/">citofonare@denisrasia.com</a><br/>
-        🍪 Questo sito utilizza dei <a href="/cookie">cookie</a> tecnici per raccogliere informazioni sul vostro percorso di navigazione.</br>
-      </p>
+	<div class="container max-w-screen-xl mx-auto px-4">
+
+		<nav class="flex-wrap lg:flex items-center justify-between mb-24 xl:mb-48" x-data="{navbarOpen:false}">
+			<div class="flex items-center mb-10 lg:mb-0">
+
+				<div class="relative flex h-16 w-16 shrink-0 select-none items-center justify-center rounded-full bg-blue-100 text-sm font-bold uppercase text-gray-900">
+					<a href="/">DR</a>
+				</div>
+
+
+				<button
+					class="w-10 h-10 lg:hidden ml-auto flex items-center justify-center text-blue-800 border border-blue-800 rounded-md"
+					@click="navbarOpen = !navbarOpen">
+					<i data-feather="menu"></i>
+				</button>
+			</div>
+
+			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0"
+				:class="{'hidden':!navbarOpen,'flex':navbarOpen}">
+				<li
+					class="font-medium text-gray-500 text-base hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0">
+					<a href="/#servizi">Servizi</a>
+				</li>
+
+				<li
+					class="px-8 py-3 font-medium text-blue-800 text-base text-center border-2 border-blue-800 rounded-md hover:bg-blue-800 hover:text-white transiton ease-linear duration-300">
+					<a href="/contatto/">Contattami</a>
+				</li>
+			</ul>
+		</nav>
+<style>
+  .background {
+    background-image: url('/img/.webp');
+  }
+  #textcontent p {
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  #textcontent li {
+    list-style-type: circle;
+    margin-left: 2rem;
+  }
+  #textcontent h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+</style>
+
+<section class="flex flex-col lg:flex-row justify-between">
+  <div class="flex items-center justify-center lg:justify-start gap-2 mb-10 mr-16">
+    <span class="w-20 h-0.5 bg-blue-700"></span>
+    <h1 class="font-medium text-blue-700 text-4xl">Categories</h1>
+</div>
+  <div class="text-center lg:text-left mb-20 lg:mb-0 background bg-cover bg-center px-4 py-10">
+      
+
+      <h2 class="font-bold text-white text-4xl md:text-6xl xl:text-7xl mb-10"></h2>
+
+      <div class="space-y-5 lg:space-x-5 mb-10">
+        
+        
       </div>
-</footer></div>
-</body>
+      <hr class="text-gray-500 mb-5">
+  </div>
+</section>
+
+</div> 
+
+
+<section class="py-8 md:py-16">
+  <div id="textcontent" class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid grid-cols-2 text-center xl:text-left xl:gap-x-24 mt-10">          
+
+
+    
+  </div>
+  
+  </div>
+</section>
+
+<footer class="bg-gray-100 py-16 mb-10">
+
+  <div class="container max-w-screen-xl mx-auto px-4">
+
+      <div class="text-center">
+          
+
+         
+
+          <div class="flex items-center justify-center space-x-4 md:space-x-8">
+
+              <a href="/contatto/" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-blue-200 transition ease-in-out duration-300">
+                  <i data-feather="at-sign" class="text-gray-500 hover:text-white transition ease-in-out duration-500"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/denisrasia" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-blue-200 transition ease-in-out duration-300">
+                <i data-feather="linkedin" class="text-gray-500 hover:text-white transition ease-in-out duration-500"></i>
+            </a>
+          </div>
+
+
+          <p class="font-normal text-gray-400 text-xs md:text-lg mb-20">denisrasia.com | <a class="underline" href="/consulente-digital-analytics/">consulente digital analytics</a> | &copy; 2021-2022<br/>
+          🍪 Questo sito utilizza dei <a class="underline" href="/cookie/">cookie</a> tecnici per raccogliere informazioni sul vostro percorso di navigazione<br/>
+        Illustrazione di Paolo Gallina</p>
+
+      </div>
+
+
+  </div>
+
+</footer>
+
+
+<script>
+  feather.replace()
+</script></body>
 
 </html>

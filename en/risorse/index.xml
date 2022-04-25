@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Risorse on Denis Rasia | Digital Analytics Consultant &amp; Customer Data Platform</title>
+    <link>https://denisrasia.com/en/risorse/</link>
+    <description>Recent content in Risorse on Denis Rasia | Digital Analytics Consultant &amp; Customer Data Platform</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language><atom:link href="https://denisrasia.com/en/risorse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Analytics e GA4</title>
+      <link>https://denisrasia.com/en/risorse/il-nuovo-ga4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/risorse/il-nuovo-ga4/</guid>
+      <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
+Questo significa che:
+ dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
+    </item>
+    
+  </channel>
+</rss>

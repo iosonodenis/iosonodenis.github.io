@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cerca la chiarezza in ogni touchpoint on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
+    <title>Denis Rasia on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</title>
     <link>https://denisrasia.com/</link>
-    <description>Recent content in Cerca la chiarezza in ogni touchpoint on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</description>
+    <description>Recent content in Denis Rasia on Denis Rasia | Consulente Digital Analytics e Customer Data Platform</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language><atom:link href="https://denisrasia.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -18,10 +18,10 @@ L’esperienza lavorativa l’ha portato a collaborare con brand e agenzie per t
     
     <item>
       <title>Citofonare, grazie</title>
-      <link>https://denisrasia.com/citofonare/</link>
+      <link>https://denisrasia.com/contatto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/citofonare/</guid>
+      <guid>https://denisrasia.com/contatto/</guid>
       <description>Informazioni personali
 Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
  Nome e cognome  Azienda  Email  Messaggio  Invia       var ele = document.getElementById(&#39;contactform&#39;); if(ele.addEventListener){ ele.addEventListener(&#34;submit&#34;, segmentIdentify, false); }else if(ele.attachEvent){ ele.attachEvent(&#39;onsubmit&#39;, segmentIdentify); } function segmentIdentify() { thisForm = document.getElementById(&#39;contactform&#39;); analytics.identify({ name: thisForm.nome.value, company: thisForm.azienda.value, email: thisForm.</description>
@@ -38,12 +38,24 @@ Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto sta
     </item>
     
     <item>
+      <title>Consent Management</title>
+      <link>https://denisrasia.com/consent-management-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/consent-management-platform/</guid>
+      <description>Privacy First Dopo anni di raccolta invasiva dei dati è evidente: le persone vogliono controllo sui propri dati e rispetto della loro privacy.
+Le normative GDPR e ePrivacy specificano che i cookie possono essere letti/scritti solo dopo consenso esplicito da parte dell’utente, questo risulta in meno dati raccolti.
+Parlare di privacy nel digitale è un ossimoro, si dovrebbe trovare il giusto equilibrio tra rispetto delle persone e obiettivi aziendali.
+Privacy by design Considerare la privacy by design nella digital analytics è importante:</description>
+    </item>
+    
+    <item>
       <title>Cookie e Privacy Policy</title>
       <link>https://denisrasia.com/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/cookie/</guid>
-      <description>tl.dr. Non ho idea di chi siete, ma solo in quanti siete (finché non compilate un modulo con la vostra email)
+      <description>Privacy policy super breve Non ho idea di chi siete, ma solo in quanti siete (finché non compilate un modulo con la vostra email)
 Questo sito utilizza strumenti di web analytics per sapere quante persone arrivano e visitano le proprie pagine.
 Impostazioni dei cookie I cookie utilizzati sono:
  </description>
@@ -90,18 +102,6 @@ QZ, uno dei miei preferiti portali di notizie, ha pubblicato una guida su come i
       <guid>https://denisrasia.com/identity-resolution/</guid>
       <description>Cos’è l’identity resolution L’identity resolution è il processo di abbinamento degli identificatori tra più dispositivi e punti di contatto verso un unico profilo. Aiuta a creare una visione omnicanale e coerente di un consumatore, consentendo alle aziende di unificare i dati per le analisi di digital marketing e di ottimizzare le campagne su tutto il percorso dell’utente.
 Con il declino dei cookie è importante, con rispetto della privacy degli utenti, abbinare le entità digitali con tratti identificativi come una mail o un numero di telefono.</description>
-    </item>
-    
-    <item>
-      <title>Marketing in un mondo privacy-first</title>
-      <link>https://denisrasia.com/consent-management-platform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/consent-management-platform/</guid>
-      <description>Privacy First Dopo anni di raccolta invasiva dei dati è evidente: le persone vogliono controllo sui propri dati e rispetto della loro privacy.
-Le normative GDPR e ePrivacy specificano che i cookie possono essere letti/scritti solo dopo consenso esplicito da parte dell’utente, questo risulta in meno dati raccolti.
-Parlare di privacy nel digitale è un ossimoro, si dovrebbe trovare il giusto equilibrio tra rispetto delle persone e obiettivi aziendali.
-Privacy by design Considerare la privacy by design nella digital analytics è importante:</description>
     </item>
     
     <item>
