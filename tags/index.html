@@ -34,31 +34,6 @@
    
 
 
-  <script>
-    
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia(
-        '(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-
-    
-    localStorage.theme = 'light'
-
-    
-    localStorage.theme = 'dark'
-
-    
-    localStorage.removeItem('theme')
-
-    function toggleDarkMode() {
-  var element = document.getElementById("parent");
-  element.classList.toggle("dark");
-}
-  </script>
-
-
 
 <script> 
   window.consentManagerConfig = function(exports) {
@@ -128,6 +103,7 @@
   <meta name="url" content="https://denisrasia.com/tags/" />
   <meta name="twitter:url" content="https://denisrasia.com/tags/" /> 
   <meta property="og:url" content="https://denisrasia.com/tags/" />
+
 </head><div id="target-container"></div>
 
 <section class="py-16">
@@ -151,6 +127,14 @@
 
 			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0"
 				:class="{'hidden':!navbarOpen,'flex':navbarOpen}">
+
+				<li>
+
+					<button id="switchTheme" class="h-10 w-10 flex justify-center items-center focus:outline-none text-yellow-500">
+						<i data-feather="moon" class="text-gray-500 transition ease-in-out duration-500"></i>
+					</button>
+				</li>
+
 				<li
 					class="font-medium text-gray-500 text-base hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0">
 					<a href="/#servizi">Servizi</a>
@@ -162,6 +146,28 @@
 				</li>
 			</ul>
 		</nav>
+
+
+
+		<script>
+			document.getElementById('switchTheme').addEventListener('click', function() {
+				let htmlClasses = document.querySelector('html').classList;
+				if(localStorage.theme == 'dark') {
+					htmlClasses.remove('dark');
+					localStorage.removeItem('theme')
+				} else {
+					htmlClasses.add('dark');
+					localStorage.theme = 'dark';
+				}
+			});
+		</script>
+		<script>
+			if (localStorage.theme === 'dark' || (!'theme' in localStorage && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+				document.querySelector('html').classList.add('dark')
+			} else if (localStorage.theme === 'dark') {
+				document.querySelector('html').classList.add('dark')
+			}
+		</script>
 <style>
   .background {
     background-image: url('/img/.webp');
@@ -230,7 +236,7 @@
             </a>
 
             <a href="/cookie/" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-charcoal transition ease-in-out duration-300">
-              <i data-feather="look" class="text-gray-500 hover:text-white transition ease-in-out duration-500"></i>
+              <i data-feather="lock" class="text-gray-500 hover:text-white transition ease-in-out duration-500"></i>
           </a>
           </div>
 
