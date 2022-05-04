@@ -16,12 +16,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <meta name="viewport" content="width=device-width">
 
 
 
-
+<script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="01387319-6ad0-42db-8307-219fd22a7b98" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
 
 
 
@@ -35,52 +37,6 @@
    
 
 
-
-<script> 
-  window.consentManagerConfig = function(exports) {
-    var React = exports.React
-    var inEU = exports.inEU
-
-    var bannerContent = React.createElement(
-      'span',
-      null,
-      '🍪 Questo sito utilizza dei cookie tecnici per raccogliere informazioni sul vostro percorso di navigazione consultabili nella nostra ',
-      ' ',
-      React.createElement(
-        'a',
-        { href: '/cookie/', target: '_blank' },
-        'Website Data Collection Policy'
-      ),
-      '.'
-    )
-    var bannerSubContent = 'Puoi cambiare le preferenze in ogni momento'
-    var preferencesDialogTitle = 'Website Data Collection Preferences'
-    var preferencesDialogContent =
-      'We use data collected by cookies and JavaScript libraries to improve your browsing experience, analyze site traffic, deliver personalized advertisements, and increase the overall performance of our site.'
-    var cancelDialogTitle = 'Are you sure you want to cancel?'
-    var cancelDialogContent =
-      'Your preferences have not been saved. By continuing to use our website, you՚re agreeing to our Website Data Collection Policy.'
-
-    return {
-      container: '#target-container',
-      
-      writeKey: 'Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET',
-      
-      shouldRequireConsent: inEU,
-      bannerContent: bannerContent,
-      bannerSubContent: bannerSubContent,
-      preferencesDialogTitle: preferencesDialogTitle,
-      preferencesDialogContent: preferencesDialogContent,
-      cancelDialogTitle: cancelDialogTitle,
-      cancelDialogContent: cancelDialogContent
-    }
-  }
-</script>
-
-<script
-  src="https://unpkg.com/@segment/consent-manager@5.3.0/standalone/consent-manager.js"
-  defer
-></script>
 
   
   
