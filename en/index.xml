@@ -12,9 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/en/contatto/</guid>
-      <description>Informazioni personali
+      <description> Informazioni personali
 Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
- Nome e cognome  Azienda  Email  Messaggio  Invia       var ele = document.getElementById(&#39;contactform&#39;); if(ele.addEventListener){ ele.addEventListener(&#34;submit&#34;, segmentIdentify, false); }else if(ele.attachEvent){ ele.attachEvent(&#39;onsubmit&#39;, segmentIdentify); } function segmentIdentify() { thisForm = document.getElementById(&#39;contactform&#39;); analytics.identify({ name: thisForm.nome.value, company: thisForm.azienda.value, email: thisForm.</description>
+Nome e cognome Azienda Email Messaggio Invia </description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@ Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto sta
       <guid>https://denisrasia.com/en/cookie/</guid>
       <description>Privacy policy super short I have no idea who you are, just how many of you are (until you fill out a form with your email)
 This site uses web analytics tools to know how many people arrive and visit its pages.
-Cookie settings  </description>
+Cookie settings </description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ Cookie settings  </description>
       <guid>https://denisrasia.com/en/customer-data-platform/</guid>
       <description>Customer Data Platform A customer data platform (also known as CDP) is a service that combines customer data from multiple sources into a single work environment.
 CDP, with its holistic approach, helps all teams in a digital project:
- Development -&amp;gt; ETL hands over to CDP -&amp;gt; team focus on key functionalities Marketing -&amp;gt; personas and segments in real time -&amp;gt; campaign optimization Data &amp;amp; Analytics -&amp;gt; solidity in data collection -&amp;gt; unified analysis Product -&amp;gt; reduction of the silo model -&amp;gt; focus on the development of experiences and functionalities  Being customer centric is a data problem The centrality of the customer, in the digital world, is a data problem: both due to the tendency of platforms to think in silos, for physiological reasons of digital (to consider one the same user who uses both the app and the site, one must prepare the measurement) and for the sunset of third-party cookies.</description>
+Development -&amp;gt; ETL hands over to CDP -&amp;gt; team focus on key functionalities Marketing -&amp;gt; personas and segments in real time -&amp;gt; campaign optimization Data &amp;amp; Analytics -&amp;gt; solidity in data collection -&amp;gt; unified analysis Product -&amp;gt; reduction of the silo model -&amp;gt; focus on the development of experiences and functionalities Being customer centric is a data problem The centrality of the customer, in the digital world, is a data problem: both due to the tendency of platforms to think in silos, for physiological reasons of digital (to consider one the same user who uses both the app and the site, one must prepare the measurement) and for the sunset of third-party cookies.</description>
     </item>
     
     <item>
@@ -57,8 +57,7 @@ This means finding out what information should be collected and how it can be ap
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/en/emailinviata/</guid>
-      <description> Illustrazione di Alex Pale
-  </description>
+      <description>Illustrazione di Alex Pale</description>
     </item>
     
     <item>
@@ -91,7 +90,7 @@ Privacy by design Considering privacy by design in digital analytics is importan
       <guid>https://denisrasia.com/en/risorse/il-nuovo-ga4/</guid>
       <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
 Questo significa che:
- dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
+dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
     </item>
     
     <item>

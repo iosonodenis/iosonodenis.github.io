@@ -14,7 +14,7 @@
       <guid>https://denisrasia.com/consulente-digital-analytics/</guid>
       <description>Denis Rasia è un digital analytics advisor, lavora con sede a Treviso e si occupa di consulenza per aziende e società in tutta Italia.
 L’esperienza lavorativa l’ha portato a collaborare con brand e agenzie per tradurre la necessità di analisi e reportistica focalizzate su attività digitali. Le soluzioni proposte sono:
- Audit delle implementazioni GTM e GA Preparazione di piani di misurazioni Individuazione dei KPI più indicati La consulenza tecnica per lo sviluppo dello stack di misurazione su Google Analytics e Google Tag Manager  Tra i progetti principali:</description>
+Audit delle implementazioni GTM e GA Preparazione di piani di misurazioni Individuazione dei KPI più indicati La consulenza tecnica per lo sviluppo dello stack di misurazione su Google Analytics e Google Tag Manager Tra i progetti principali:</description>
     </item>
     
     <item>
@@ -23,9 +23,9 @@ L’esperienza lavorativa l’ha portato a collaborare con brand e agenzie per t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/contatto/</guid>
-      <description>Informazioni personali
+      <description> Informazioni personali
 Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
- Nome e cognome  Azienda  Email  Messaggio  Invia       var ele = document.getElementById(&#39;contactform&#39;); if(ele.addEventListener){ ele.addEventListener(&#34;submit&#34;, segmentIdentify, false); }else if(ele.attachEvent){ ele.attachEvent(&#39;onsubmit&#39;, segmentIdentify); } function segmentIdentify() { thisForm = document.getElementById(&#39;contactform&#39;); analytics.identify({ name: thisForm.nome.value, company: thisForm.azienda.value, email: thisForm.</description>
+Nome e cognome Azienda Email Messaggio Invia </description>
     </item>
     
     <item>
@@ -34,8 +34,7 @@ Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto sta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://denisrasia.com/emailinviata/</guid>
-      <description> Illustrazione di Alex Pale
-  </description>
+      <description>Illustrazione di Alex Pale</description>
     </item>
     
     <item>
@@ -58,7 +57,7 @@ Privacy by design Considerare la privacy by design nella digital analytics è im
       <guid>https://denisrasia.com/cookie/</guid>
       <description>Privacy policy super breve Non ho idea di chi siete, ma solo in quanti siete (finché non compilate un modulo con la vostra email)
 Questo sito utilizza strumenti di web analytics per sapere quante persone arrivano e visitano le proprie pagine.
-Impostazioni dei cookie  </description>
+Impostazioni dei cookie </description>
     </item>
     
     <item>
@@ -69,7 +68,7 @@ Impostazioni dei cookie  </description>
       <guid>https://denisrasia.com/customer-data-platform/</guid>
       <description>Introduzione alla Customer Data Platform Una customer data platform (nota anche come CDP ) è un servizio che combina i dati dei clienti, provenienti da più fonti, in un unico ambiente di lavoro.
 La CDP, con il suo approccio olistico, aiuta tutti i team di un progetto digitale:
- Sviluppo -&amp;gt; ETL passa in carico alla CDP -&amp;gt; focus del team sulle funzionalità chiave Marketing -&amp;gt; personas e segmenti in tempo reale -&amp;gt; ottimizzazione delle campagne Data &amp;amp; Analytics -&amp;gt; solidità nella raccolta dati -&amp;gt; analisi unificate Prodotto -&amp;gt; riduzione del modello silo -&amp;gt; focus sullo sviluppo di esperienze e funzionalità  Essere customer centric è un problema di dati La centralità del cliente, nel mondo digitale, è un problema di dati: sia per la tendenza delle piattaforme di ragionare a silo, per motivi fisiologici del digitale (per considerare uno lo stesso utente che usa sia l’app, che il sito, bisogna predisporre la misurazione) e per il tramonto dei cookie di terze parti.</description>
+Sviluppo -&amp;gt; ETL passa in carico alla CDP -&amp;gt; focus del team sulle funzionalità chiave Marketing -&amp;gt; personas e segmenti in tempo reale -&amp;gt; ottimizzazione delle campagne Data &amp;amp; Analytics -&amp;gt; solidità nella raccolta dati -&amp;gt; analisi unificate Prodotto -&amp;gt; riduzione del modello silo -&amp;gt; focus sullo sviluppo di esperienze e funzionalità Essere customer centric è un problema di dati La centralità del cliente, nel mondo digitale, è un problema di dati: sia per la tendenza delle piattaforme di ragionare a silo, per motivi fisiologici del digitale (per considerare uno lo stesso utente che usa sia l’app, che il sito, bisogna predisporre la misurazione) e per il tramonto dei cookie di terze parti.</description>
     </item>
     
     <item>
@@ -112,7 +111,7 @@ Con il declino dei cookie è importante, con rispetto della privacy degli utenti
       <guid>https://denisrasia.com/risorse/il-nuovo-ga4/</guid>
       <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
 Questo significa che:
- dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
+dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
     </item>
     
   </channel>

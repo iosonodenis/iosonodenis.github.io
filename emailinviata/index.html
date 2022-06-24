@@ -17,27 +17,54 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <meta name="viewport" content="width=device-width">
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET";;analytics.SNIPPET_VERSION="4.15.3";
+  analytics.page();
+  }}();
+</script>
+<script> 
+  window.consentManagerConfig = function(exports) {
+    var React = exports.React
+    var inEU = exports.inEU
 
+    var bannerContent = React.createElement(
+      'span',
+      null,
+      '🍪 Questo sito utilizza dei cookie tecnici per raccogliere informazioni sul vostro percorso di navigazione consultabili nella nostra ',
+      ' ',
+      React.createElement(
+        'a',
+        { href: '/cookie/', target: '_blank' },
+        'Website Data Collection Policy'
+      ),
+      '.'
+    )
+    var bannerSubContent = 'Puoi cambiare le preferenze in ogni momento'
+    var preferencesDialogTitle = 'Website Data Collection Preferences'
+    var preferencesDialogContent =
+      'We use data collected by cookies and JavaScript libraries to improve your browsing experience, analyze site traffic, deliver personalized advertisements, and increase the overall performance of our site.'
+    var cancelDialogTitle = 'Are you sure you want to cancel?'
+    var cancelDialogContent =
+      'Your preferences have not been saved. By continuing to use our website, you՚re agreeing to our Website Data Collection Policy.'
 
-
-<script src="https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="01387319-6ad0-42db-8307-219fd22a7b98" ></script>
-<script type="text/javascript">
-function OptanonWrapper() { }
+    return {
+      container: '#target-container',
+      writeKey: 'Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET',
+      shouldRequireConsent: inEU,
+      bannerContent: bannerContent,
+      bannerSubContent: bannerSubContent,
+      preferencesDialogTitle: preferencesDialogTitle,
+      preferencesDialogContent: preferencesDialogContent,
+      cancelDialogTitle: cancelDialogTitle,
+      cancelDialogContent: cancelDialogContent
+    }
+  }
 </script>
 
-
-
-
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=ZzWBuu9KqLJFuD04W-4kmg&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5B9SDXV');</script>
-  
-   
-
-
-
+<script
+  src="https://unpkg.com/@segment/consent-manager@5.3.0/standalone/consent-manager.js"
+  defer
+></script>
   
   
 
