@@ -7,17 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language><atom:link href="https://denisrasia.com/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Citofonare, grazie</title>
-      <link>https://denisrasia.com/en/contatto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/contatto/</guid>
-      <description> Informazioni personali
-Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
-Nome e cognome Azienda Email Messaggio Invia </description>
-    </item>
-    
-    <item>
       <title>Cookie and Privacy Policy</title>
       <link>https://denisrasia.com/en/cookie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -80,6 +69,17 @@ With the decline of cookies it is important, with respect for the privacy of use
 The GDPR and ePrivacy regulations specify that cookies can be read / written only after explicit consent from the user, this results in less data collected.
 Talking about digital privacy might sounds as an oxymoron, you should find the right balance between respect for people and business objectives.
 Privacy by design Considering privacy by design in digital analytics is important:</description>
+    </item>
+    
+    <item>
+      <title>Please, buzz</title>
+      <link>https://denisrasia.com/en/contatto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/en/contatto/</guid>
+      <description> Informazioni personali
+Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
+Name and surname Company Email Message Send </description>
     </item>
     
     <item>

@@ -16,20 +16,6 @@
                 href="https://denisrasia.com/en/categories/"
                 />
   </url><url>
-    <loc>https://denisrasia.com/en/contatto/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://denisrasia.com/contatto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://denisrasia.com/en/contatto/"
-                />
-  </url><url>
     <loc>https://denisrasia.com/en/cookie/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -126,6 +112,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://denisrasia.com/en/consent-management-platform/"
+                />
+  </url><url>
+    <loc>https://denisrasia.com/en/contatto/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/contatto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/contatto/"
                 />
   </url><url>
     <loc>https://denisrasia.com/en/risorse/</loc>
