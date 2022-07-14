@@ -160,6 +160,20 @@
                 href="https://denisrasia.com/risorse/"
                 />
   </url><url>
+    <loc>https://denisrasia.com/servizi/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/servizi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/servizi/"
+                />
+  </url><url>
     <loc>https://denisrasia.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -187,5 +201,9 @@
                 hreflang="it"
                 href="https://denisrasia.com/risorse/il-nuovo-ga4/"
                 />
+  </url><url>
+    <loc>https://denisrasia.com/servizi/universal-analytics-data-export/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

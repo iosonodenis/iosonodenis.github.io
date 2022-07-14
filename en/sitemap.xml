@@ -142,6 +142,20 @@
                 href="https://denisrasia.com/en/risorse/"
                 />
   </url><url>
+    <loc>https://denisrasia.com/en/servizi/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/servizi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/servizi/"
+                />
+  </url><url>
     <loc>https://denisrasia.com/en/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -116,5 +116,15 @@ Questo significa che:
 dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
     </item>
     
+    <item>
+      <title>Universal Analytics, esportazione e backup</title>
+      <link>https://denisrasia.com/servizi/universal-analytics-data-export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/servizi/universal-analytics-data-export/</guid>
+      <description>Introduzione L&amp;rsquo;esportazione e backup dei dati di Univesal Google Analytics è un servizio pensato per le aziende che vogliono mantenere il loro storico dati e conservarlo in modalità sicura e facilmente fruibile.
+Sicura: è una copia che potete conservare. Non risiede nei server di Google Analytics. Fruibile: è un formato csv che può essere facilmente lavorato, importato in un BigQuery, analizzato con Data Studio o Power BI. Perché l&amp;rsquo;esportazione e backup Quando Google ha dismesso Google Analytics Universal per le app mobile, i dati sono rimasti consultabili dalle viste per pochi mesi.</description>
+    </item>
+    
   </channel>
 </rss>
