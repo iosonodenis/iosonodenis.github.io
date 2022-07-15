@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Denis Rasia on Customer Data Platform and Digital Analytics Consultant | Denis Rasia</title>
-    <link>https://denisrasia.com/en/</link>
-    <description>Recent content in Denis Rasia on Customer Data Platform and Digital Analytics Consultant | Denis Rasia</description>
+    <title>1. Topics on Customer Data Platform and Digital Analytics Consultant | Denis Rasia</title>
+    <link>https://denisrasia.com/en/topics/</link>
+    <description>Recent content in 1. Topics on Customer Data Platform and Digital Analytics Consultant | Denis Rasia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>it-it</language><atom:link href="https://denisrasia.com/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cookie and Privacy Policy</title>
-      <link>https://denisrasia.com/en/cookie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/cookie/</guid>
-      <description>Privacy policy super short I have no idea who you are, just how many of you are (until you fill out a form with your email)
-This site uses web analytics tools to know how many people arrive and visit its pages.
-Cookie settings </description>
-    </item>
-    
+    <language>it-it</language><atom:link href="https://denisrasia.com/en/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Customer Data Platform</title>
       <link>https://denisrasia.com/en/topics/customer-data-platform/</link>
@@ -41,15 +30,6 @@ This means finding out what information should be collected and how it can be ap
     </item>
     
     <item>
-      <title>Get in touch</title>
-      <link>https://denisrasia.com/en/emailinviata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/emailinviata/</guid>
-      <description>Illustrazione di Alex Pale</description>
-    </item>
-    
-    <item>
       <title>Identity Resolution</title>
       <link>https://denisrasia.com/en/topics/identity-resolution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,38 +49,6 @@ With the decline of cookies it is important, with respect for the privacy of use
 The GDPR and ePrivacy regulations specify that cookies can be read / written only after explicit consent from the user, this results in less data collected.
 Talking about digital privacy might sounds as an oxymoron, you should find the right balance between respect for people and business objectives.
 Privacy by design Considering privacy by design in digital analytics is important:</description>
-    </item>
-    
-    <item>
-      <title>Please, buzz</title>
-      <link>https://denisrasia.com/en/contatto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/contatto/</guid>
-      <description> Informazioni personali
-Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
-Name and surname Company Email Message Send </description>
-    </item>
-    
-    <item>
-      <title>Universal Analytics e GA4</title>
-      <link>https://denisrasia.com/en/insight/il-nuovo-ga4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/insight/il-nuovo-ga4/</guid>
-      <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
-Questo significa che:
-dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
-    </item>
-    
-    <item>
-      <title>Who is Denis</title>
-      <link>https://denisrasia.com/en/consulente-digital-analytics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/consulente-digital-analytics/</guid>
-      <description>Denis Rasia is a digital analytics advisor, he works based in Treviso and deals with consulting for companies and companies throughout Italy.
-His work experience has led him to collaborate with brands and agencies to translate the need for analysis and reporting focused on digital activities. The proposed solutions are: In his work experience he has worked with brands and agencies to translate the analysis and reporting needs of digital activities into technical solutions such as:</description>
     </item>
     
   </channel>

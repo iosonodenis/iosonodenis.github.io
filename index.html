@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> 
 <meta name="viewport" content="width=device-width" initial-scale="1">
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET";;analytics.SNIPPET_VERSION="4.15.3";
@@ -88,6 +89,8 @@
   <meta name="url" content="https://denisrasia.com/" />
   <meta name="twitter:url" content="https://denisrasia.com/" /> 
   <meta property="og:url" content="https://denisrasia.com/" />
+  <link rel="alternate" hreflang="en" href="https://denisrasia.com/en/" />
+  <link rel="alternate" hreflang="it" href="https://denisrasia.com/" />
 
 </head><div id="target-container"></div>
 <section class="py-16">
@@ -101,10 +104,34 @@
 					<a href="/">DR</a>
 				</div>
 
-			
+			<button
+					class="w-10 h-10 lg:hidden ml-auto flex items-center justify-center text-charcoal dark:text-deepspace border border-charcoal dark:border-deepspace rounded-md"
+					@click="navbarOpen=!navbarOpen">
+					<i data-feather="menu"></i>
+				</button>
 			</div>
 
-			
+			<ul class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0" :class="{'hidden':!navbarOpen,'flex':navbarOpen}">
+
+				
+				<li
+				class="font-medium text-gray-500 text-base hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0">
+				<a href="https://denisrasia.com/topics/">1. Luoghi</a>
+			</li>
+				
+				<li
+				class="font-medium text-gray-500 text-base hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0">
+				<a href="https://denisrasia.com/servizi/">2. Servizi</a>
+			</li>
+				
+				<li
+				class="font-medium text-gray-500 text-base hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0">
+				<a href="https://denisrasia.com/insight/">3. Risorse e insights</a>
+			</li>
+				
+
+				
+			</ul>
 		</nav>
 
 
@@ -158,65 +185,38 @@
 
           <div class="grid grid-cols-3 text-center xl:text-left xl:gap-x-24 mt-10">          
 
-          
+            
               <div class="mb-16 xl:mb-0">
-                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/consent-management-platform/">Consent Management</a></h4> 
+                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/topics/">1. Luoghi</a></h4> 
 
-                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Porta chiarezza su come raccogli i dati</p>
+                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Dove cercare la chiarezza</p>
 
-                  <a href="https://denisrasia.com/consent-management-platform/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
+                  <a href="https://denisrasia.com/topics/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
                       <i data-feather="arrow-right"></i>
                   </a>
               </div>
               
               <div class="mb-16 xl:mb-0">
-                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/customer-data-platform/">Customer Data Platform</a></h4> 
+                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/servizi/">2. Servizi</a></h4> 
 
-                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Porta chiarezza sulla user journey</p>
+                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Cosa faccio per i miei clienti</p>
 
-                  <a href="https://denisrasia.com/customer-data-platform/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
+                  <a href="https://denisrasia.com/servizi/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
                       <i data-feather="arrow-right"></i>
                   </a>
               </div>
               
               <div class="mb-16 xl:mb-0">
-                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/digital-analytics/">Digital Analytics</a></h4> 
+                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/insight/">3. Risorse e insights</a></h4> 
 
-                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Porta chiarezza su come vengono utilizzate le tue properties</p>
+                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Risorse e insight per chi lavora con i dati</p>
 
-                  <a href="https://denisrasia.com/digital-analytics/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
+                  <a href="https://denisrasia.com/insight/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
                       <i data-feather="arrow-right"></i>
                   </a>
               </div>
               
-              <div class="mb-16 xl:mb-0">
-                  <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="https://denisrasia.com/identity-resolution/">Identity Resolution</a></h4> 
-
-                  <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Porta chiarezza su chi sono i tuoi utenti</p>
-
-                  <a href="https://denisrasia.com/identity-resolution/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
-                      <i data-feather="arrow-right"></i>
-                  </a>
-              </div>
-              
-              <div class="mb-16 xl:mb-0">
-                <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="/servizi/">Servizi</a></h4> 
-
-                <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Cosa faccio per i miei clienti</p>
-
-                <a href="/servizi/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
-                    <i data-feather="arrow-right"></i>
-                </a>
-            </div>
-              <div class="mb-16 xl:mb-0">
-                <h4 class="font-semibold text-charcoal dark:text-deepspace text-md md:text-lg mb-5"><a href="/risorse/">Risorse</a></h4> 
-
-                <p class="font-normal text-gray-500 dark:text-quicksilver text-xs md:text-sm mb-5">Materiali e approfondimenti d&#39;interesse per chi lavora con i dati</p>
-
-                <a href="/risorse/" class="flex items-center justify-center xl:justify-start gap-3 font-medium text-charcoal text-md hover:text-blue-600 transition ease-in-out duration-300">
-                    <i data-feather="arrow-right"></i>
-                </a>
-            </div>
+             
           </div>
       </div>
 

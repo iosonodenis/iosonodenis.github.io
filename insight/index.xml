@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. Risorse e insights on Consulente Digital Analytics e Customer Data Platform | Denis Rasia</title>
+    <link>https://denisrasia.com/insight/</link>
+    <description>Recent content in 3. Risorse e insights on Consulente Digital Analytics e Customer Data Platform | Denis Rasia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language><atom:link href="https://denisrasia.com/insight/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guida ai dati problematici</title>
+      <link>https://denisrasia.com/insight/guida-dati-problematici/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/insight/guida-dati-problematici/</guid>
+      <description>Lavorare con i dati non è sempre un processo diretto come può sembrare, inoltre i numerosi corsi online ti fanno esercitare su dataset già pronti all&amp;rsquo;uso anche se spesso (se non sempre) i dati che abbiamo davanti sono tutt&amp;rsquo;altro che chiari, puliti e facilmente interpretabili.
+QZ, uno dei miei preferiti portali di notizie, ha pubblicato una guida su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</description>
+    </item>
+    
+    <item>
+      <title>Universal Analytics e GA4</title>
+      <link>https://denisrasia.com/insight/il-nuovo-ga4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/insight/il-nuovo-ga4/</guid>
+      <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
+Questo significa che:
+dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
+    </item>
+    
+  </channel>
+</rss>

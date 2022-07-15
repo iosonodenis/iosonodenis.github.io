@@ -40,10 +40,10 @@ Nome e cognome Azienda Email Messaggio Invia </description>
     
     <item>
       <title>Consent Management</title>
-      <link>https://denisrasia.com/consent-management-platform/</link>
+      <link>https://denisrasia.com/topics/consent-management-platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/consent-management-platform/</guid>
+      <guid>https://denisrasia.com/topics/consent-management-platform/</guid>
       <description>Privacy First Dopo anni di raccolta invasiva dei dati è evidente: le persone vogliono controllo sui propri dati e rispetto della loro privacy.
 Le normative GDPR e ePrivacy specificano che i cookie possono essere letti/scritti solo dopo consenso esplicito da parte dell’utente, questo risulta in meno dati raccolti.
 Parlare di privacy nel digitale è un ossimoro, si dovrebbe trovare il giusto equilibrio tra rispetto delle persone e obiettivi aziendali.
@@ -64,10 +64,10 @@ Mixpanel Google Analytics 4 Amplitude Inspectlet Questi strumenti vengono servit
     
     <item>
       <title>Customer Data Platform</title>
-      <link>https://denisrasia.com/customer-data-platform/</link>
+      <link>https://denisrasia.com/topics/customer-data-platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/customer-data-platform/</guid>
+      <guid>https://denisrasia.com/topics/customer-data-platform/</guid>
       <description>Introduzione alla Customer Data Platform Una customer data platform (nota anche come CDP ) è un servizio che combina i dati dei clienti, provenienti da più fonti, in un unico ambiente di lavoro.
 La CDP, con il suo approccio olistico, aiuta tutti i team di un progetto digitale:
 Sviluppo -&amp;gt; ETL passa in carico alla CDP -&amp;gt; focus del team sulle funzionalità chiave Marketing -&amp;gt; personas e segmenti in tempo reale -&amp;gt; ottimizzazione delle campagne Data &amp;amp; Analytics -&amp;gt; solidità nella raccolta dati -&amp;gt; analisi unificate Prodotto -&amp;gt; riduzione del modello silo -&amp;gt; focus sullo sviluppo di esperienze e funzionalità Essere customer centric è un problema di dati La centralità del cliente, nel mondo digitale, è un problema di dati: sia per la tendenza delle piattaforme di ragionare a silo, per motivi fisiologici del digitale (per considerare uno lo stesso utente che usa sia l’app, che il sito, bisogna predisporre la misurazione) e per il tramonto dei cookie di terze parti.</description>
@@ -75,10 +75,10 @@ Sviluppo -&amp;gt; ETL passa in carico alla CDP -&amp;gt; focus del team sulle f
     
     <item>
       <title>Digital Analytics</title>
-      <link>https://denisrasia.com/digital-analytics/</link>
+      <link>https://denisrasia.com/topics/digital-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/digital-analytics/</guid>
+      <guid>https://denisrasia.com/topics/digital-analytics/</guid>
       <description>Cos’è la digital analytics Gli analytics sono innanzitutto una necessità di business. La necessità di sapere la storia dei vostri utenti quando entrano in contatto con la vostra azienda.
 E’ una storia rappresentata quantitativamente, e valida quanto sono le domande che hanno creato questa storia.
 Perché un consulente per la digital analytics Un consulente per la digital analytics allinea la presenza digitale con gli obiettivi aziendali.
@@ -87,30 +87,30 @@ Ciò significa scoprire quali informazioni dovrebbero essere raccolte e come pos
     
     <item>
       <title>Guida ai dati problematici</title>
-      <link>https://denisrasia.com/risorse/guida-dati-problematici/</link>
+      <link>https://denisrasia.com/insight/guida-dati-problematici/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/risorse/guida-dati-problematici/</guid>
+      <guid>https://denisrasia.com/insight/guida-dati-problematici/</guid>
       <description>Lavorare con i dati non è sempre un processo diretto come può sembrare, inoltre i numerosi corsi online ti fanno esercitare su dataset già pronti all&amp;rsquo;uso anche se spesso (se non sempre) i dati che abbiamo davanti sono tutt&amp;rsquo;altro che chiari, puliti e facilmente interpretabili.
 QZ, uno dei miei preferiti portali di notizie, ha pubblicato una guida su come individuare, lavorare e risolvere le situazioni con dati problematici. Il taglio della guida è per i giornalisti, ma le indicazioni generali sono utili per chiunque lavori con i dati.</description>
     </item>
     
     <item>
       <title>Identity Resolution</title>
-      <link>https://denisrasia.com/identity-resolution/</link>
+      <link>https://denisrasia.com/topics/identity-resolution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/identity-resolution/</guid>
+      <guid>https://denisrasia.com/topics/identity-resolution/</guid>
       <description>Cos’è l’identity resolution L’identity resolution è il processo di abbinamento degli identificatori tra più dispositivi e punti di contatto verso un unico profilo. Aiuta a creare una visione omnicanale e coerente di un consumatore, consentendo alle aziende di unificare i dati per le analisi di digital marketing e di ottimizzare le campagne su tutto il percorso dell’utente.
 Con il declino dei cookie è importante, con rispetto della privacy degli utenti, abbinare le entità digitali con tratti identificativi come una mail o un numero di telefono.</description>
     </item>
     
     <item>
       <title>Universal Analytics e GA4</title>
-      <link>https://denisrasia.com/risorse/il-nuovo-ga4/</link>
+      <link>https://denisrasia.com/insight/il-nuovo-ga4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://denisrasia.com/risorse/il-nuovo-ga4/</guid>
+      <guid>https://denisrasia.com/insight/il-nuovo-ga4/</guid>
       <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
 Questo significa che:
 dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>

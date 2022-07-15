@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://denisrasia.com/topics/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/topics/"
+                />
+  </url><url>
+    <loc>https://denisrasia.com/servizi/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/servizi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/servizi/"
+                />
+  </url><url>
+    <loc>https://denisrasia.com/insight/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://denisrasia.com/en/insight/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://denisrasia.com/insight/"
+                />
+  </url><url>
     <loc>https://denisrasia.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -58,18 +100,18 @@
                 href="https://denisrasia.com/emailinviata/"
                 />
   </url><url>
-    <loc>https://denisrasia.com/consent-management-platform/</loc>
+    <loc>https://denisrasia.com/topics/consent-management-platform/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denisrasia.com/en/consent-management-platform/"
+                href="https://denisrasia.com/en/topics/consent-management-platform/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://denisrasia.com/consent-management-platform/"
+                href="https://denisrasia.com/topics/consent-management-platform/"
                 />
   </url><url>
     <loc>https://denisrasia.com/cookie/</loc>
@@ -86,18 +128,18 @@
                 href="https://denisrasia.com/cookie/"
                 />
   </url><url>
-    <loc>https://denisrasia.com/customer-data-platform/</loc>
+    <loc>https://denisrasia.com/topics/customer-data-platform/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denisrasia.com/en/customer-data-platform/"
+                href="https://denisrasia.com/en/topics/customer-data-platform/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://denisrasia.com/customer-data-platform/"
+                href="https://denisrasia.com/topics/customer-data-platform/"
                 />
   </url><url>
     <loc>https://denisrasia.com/</loc>
@@ -114,64 +156,36 @@
                 href="https://denisrasia.com/"
                 />
   </url><url>
-    <loc>https://denisrasia.com/digital-analytics/</loc>
+    <loc>https://denisrasia.com/topics/digital-analytics/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denisrasia.com/en/digital-analytics/"
+                href="https://denisrasia.com/en/topics/digital-analytics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://denisrasia.com/digital-analytics/"
+                href="https://denisrasia.com/topics/digital-analytics/"
                 />
   </url><url>
-    <loc>https://denisrasia.com/risorse/guida-dati-problematici/</loc>
+    <loc>https://denisrasia.com/insight/guida-dati-problematici/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://denisrasia.com/identity-resolution/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://denisrasia.com/en/identity-resolution/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://denisrasia.com/identity-resolution/"
-                />
-  </url><url>
-    <loc>https://denisrasia.com/risorse/</loc>
+    <loc>https://denisrasia.com/topics/identity-resolution/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denisrasia.com/en/risorse/"
+                href="https://denisrasia.com/en/topics/identity-resolution/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://denisrasia.com/risorse/"
-                />
-  </url><url>
-    <loc>https://denisrasia.com/servizi/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://denisrasia.com/en/servizi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://denisrasia.com/servizi/"
+                href="https://denisrasia.com/topics/identity-resolution/"
                 />
   </url><url>
     <loc>https://denisrasia.com/tags/</loc>
@@ -188,18 +202,18 @@
                 href="https://denisrasia.com/tags/"
                 />
   </url><url>
-    <loc>https://denisrasia.com/risorse/il-nuovo-ga4/</loc>
+    <loc>https://denisrasia.com/insight/il-nuovo-ga4/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://denisrasia.com/en/risorse/il-nuovo-ga4/"
+                href="https://denisrasia.com/en/insight/il-nuovo-ga4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://denisrasia.com/risorse/il-nuovo-ga4/"
+                href="https://denisrasia.com/insight/il-nuovo-ga4/"
                 />
   </url><url>
     <loc>https://denisrasia.com/servizi/universal-analytics-data-export/</loc>

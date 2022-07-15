@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1. Luoghi on Consulente Digital Analytics e Customer Data Platform | Denis Rasia</title>
+    <link>https://denisrasia.com/topics/</link>
+    <description>Recent content in 1. Luoghi on Consulente Digital Analytics e Customer Data Platform | Denis Rasia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language><atom:link href="https://denisrasia.com/topics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consent Management</title>
+      <link>https://denisrasia.com/topics/consent-management-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/topics/consent-management-platform/</guid>
+      <description>Privacy First Dopo anni di raccolta invasiva dei dati è evidente: le persone vogliono controllo sui propri dati e rispetto della loro privacy.
+Le normative GDPR e ePrivacy specificano che i cookie possono essere letti/scritti solo dopo consenso esplicito da parte dell’utente, questo risulta in meno dati raccolti.
+Parlare di privacy nel digitale è un ossimoro, si dovrebbe trovare il giusto equilibrio tra rispetto delle persone e obiettivi aziendali.
+Privacy by design Considerare la privacy by design nella digital analytics è importante:</description>
+    </item>
+    
+    <item>
+      <title>Customer Data Platform</title>
+      <link>https://denisrasia.com/topics/customer-data-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/topics/customer-data-platform/</guid>
+      <description>Introduzione alla Customer Data Platform Una customer data platform (nota anche come CDP ) è un servizio che combina i dati dei clienti, provenienti da più fonti, in un unico ambiente di lavoro.
+La CDP, con il suo approccio olistico, aiuta tutti i team di un progetto digitale:
+Sviluppo -&amp;gt; ETL passa in carico alla CDP -&amp;gt; focus del team sulle funzionalità chiave Marketing -&amp;gt; personas e segmenti in tempo reale -&amp;gt; ottimizzazione delle campagne Data &amp;amp; Analytics -&amp;gt; solidità nella raccolta dati -&amp;gt; analisi unificate Prodotto -&amp;gt; riduzione del modello silo -&amp;gt; focus sullo sviluppo di esperienze e funzionalità Essere customer centric è un problema di dati La centralità del cliente, nel mondo digitale, è un problema di dati: sia per la tendenza delle piattaforme di ragionare a silo, per motivi fisiologici del digitale (per considerare uno lo stesso utente che usa sia l’app, che il sito, bisogna predisporre la misurazione) e per il tramonto dei cookie di terze parti.</description>
+    </item>
+    
+    <item>
+      <title>Digital Analytics</title>
+      <link>https://denisrasia.com/topics/digital-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/topics/digital-analytics/</guid>
+      <description>Cos’è la digital analytics Gli analytics sono innanzitutto una necessità di business. La necessità di sapere la storia dei vostri utenti quando entrano in contatto con la vostra azienda.
+E’ una storia rappresentata quantitativamente, e valida quanto sono le domande che hanno creato questa storia.
+Perché un consulente per la digital analytics Un consulente per la digital analytics allinea la presenza digitale con gli obiettivi aziendali.
+Ciò significa scoprire quali informazioni dovrebbero essere raccolte e come possono essere applicate a opportunità e risultati.</description>
+    </item>
+    
+    <item>
+      <title>Identity Resolution</title>
+      <link>https://denisrasia.com/topics/identity-resolution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://denisrasia.com/topics/identity-resolution/</guid>
+      <description>Cos’è l’identity resolution L’identity resolution è il processo di abbinamento degli identificatori tra più dispositivi e punti di contatto verso un unico profilo. Aiuta a creare una visione omnicanale e coerente di un consumatore, consentendo alle aziende di unificare i dati per le analisi di digital marketing e di ottimizzare le campagne su tutto il percorso dell’utente.
+Con il declino dei cookie è importante, con rispetto della privacy degli utenti, abbinare le entità digitali con tratti identificativi come una mail o un numero di telefono.</description>
+    </item>
+    
+  </channel>
+</rss>
