@@ -114,6 +114,10 @@
                 href="https://denisrasia.com/topics/consent-management-platform/"
                 />
   </url><url>
+    <loc>https://denisrasia.com/servizi/consent-management-audit/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://denisrasia.com/cookie/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -169,6 +173,10 @@
                 hreflang="it"
                 href="https://denisrasia.com/topics/digital-analytics/"
                 />
+  </url><url>
+    <loc>https://denisrasia.com/servizi/digital-analytics-solution-design/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://denisrasia.com/insight/guida-dati-problematici/</loc>
     <changefreq>monthly</changefreq>
