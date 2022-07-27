@@ -20,7 +20,10 @@
 <meta name="viewport" content="width=device-width" initial-scale="1">
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="Pz4eCxWF0ix9DKCQ3WmpSEA4cw4gfCET";;analytics.SNIPPET_VERSION="4.15.3";
-  analytics.page();
+  analytics.page({
+    topic: 'cdp'
+  });
+
   }}();
 </script>
 <script> 
@@ -167,6 +170,9 @@
   }
 </style>
 
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
 <section class="flex flex-col lg:flex-row justify-between">
   <div class="flex items-center justify-center lg:justify-start gap-2 mb-10 mr-16">
     <span class="w-20 h-0.5 bg-charcoal dark:bg-deepspace"></span>
@@ -180,6 +186,8 @@
       <div class="space-y-5 lg:space-x-5 mb-10">
         
         
+        
+        <a href="" class="block md:inline px-8 py-3 font-medium bg-charcoal text-platinum text-lg rounded-md hover:bg-deepspace transiton ease-in-out duration-300" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/denisrasia/primo-contatto-15m?hide_gdpr_banner=1&text_color=252932&primary_color=214557'});analytics.track('Calendly Click', {cta_place: 'page_hero', topic: &#34;cdp&#34; });return false;">Organizza una videochiamata</a>
       </div>
       
   </div>
@@ -256,9 +264,13 @@ Build personalised, omnichannel customer journeys based on your audiences</p>
 
 <section class="py-8">
   <div class="container max-w-screen-xl mx-auto px-4">
-      <h1 class="font-semibold text-gray-800 dark:text-quicksilver text-2xl md:text-3xl xl:text-5xl text-center leading-tight mb-20 xl:mb-40">Inizia con la customer data platform <span class="text-charcoal dark:text-deepspace"><a href="/contatto/"><span data-feather="arrow-right"></span> Contattami</a></span></h1>
+      <h1 class="font-semibold text-gray-800 dark:text-quicksilver text-2xl md:text-3xl xl:text-5xl text-center leading-tight mb-20 xl:mb-40">Inizia con la customer data platform <span class="text-charcoal dark:text-deepspace"><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/denisrasia/primo-contatto-15m?hide_gdpr_banner=1&text_color=252932&primary_color=214557'});return false;"><span data-feather="arrow-right"></span> Contattami</a></span></h1>
     </div>
 </section>
+
+
+
+
 
 <footer class="bg-gray-100 dark:bg-blackcoral py-16 mb-10">
 
