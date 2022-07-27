@@ -194,36 +194,128 @@
       
 
 
-<section class="p-6">
-  <form method="post" action="https://forms.un-static.com/forms/5d3acd50e9226ef899948673bf6ad59d0d8d3cf4" class="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid" id="contactform">
-		<fieldset class="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-coolGray-900">
-			<div class="space-y-2 col-span-full lg:col-span-1">
-				<p class="font-medium">Informazioni personali</p>
-				<p class="text-xs">Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR</p>
+<section>
+	<!-- da inserire in head dopo -->
+	<script src="https://kwesforms.com/v2/kwes-script.js" defer></script>
+	<!-- fine -->
+
+	<div class="flex flex-wrap -mx-3">
+		<div class="w-full md:w-1/2 px-3 md:mb-0">
+		<h2>Mettiti in contatto</h2>
+
+		<p>Per metterti in contatto con me puoi compilare il seguente form indicando la tua mail e generalmente di cosa hai bisogno.</p>
+		<p>Gli unici campi richiesti sono l'indirizzo email in modo che possa ricontattarti e un messaggio, in modo da agevolare la risposta.</p>
+
+		<p>E' inoltre possibile organizzare subito una chiamata su Google Meet o su Zoom <!-- Calendly link widget begin -->
+			<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+			<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+			<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/denisrasia/discovery'});return false;">verificando prima qui le disponibilità</a>
+			<!-- Calendly link widget end -->.</p>
+
+		<p>Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR.</p>
+
+		</div>
+		<div class="w-full md:w-1/2 px-3 md:mb-0">
+			<form method="post" action="https://kwesforms.com/api/foreign/forms/tNk9AWQuW2nuQcg1BYF2"
+			class="w-full max-w-lg kwes-form">
+	
+			
+			<hr>
+
+			<div class="flex flex-wrap -mx-3 mb-6">
+			<div class="w-full px-3">
+				<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
+					Richiesta
+				</label>
+				<div class="relative">
+					<select
+						class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+						id="grid-richiesta" name="Richiesta">
+						<option value="Solution Design">Solution Design</option>
+						<option value="Temporary Management">Temporary Management</option>
+						<option value="GA4">Implementazione GA4</option>
+						<option value="Export">Esportazione Universal Analytics</option>
+						<option value="CDP">Customer Data Platform</option>
+						<option value="CMP Audit">Consent Management Platform Audit</option>
+						<option value="Altro">Invio gadget e materiali ;)</option>
+					</select>
+					<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+						<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+							<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+							</svg>
+					</div>
+				</div>
 			</div>
-			<div class="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
-				<div class="col-span-full sm:col-span-3">
-					<label for="firstname" class="text-sm dark:text-platinum">Nome e cognome</label>
-					<input id="firstname"  name="nome" type="text" placeholder="Nome e cognome" class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-charcoal bg-platinum text-charcoal">
-				</div>
-				<div class="col-span-full sm:col-span-3">
-					<label for="lastname" class="text-sm dark:text-platinum">Azienda</label>
-					<input id="lastname" name="azienda" type="text" placeholder="Azienda" class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-charcoal bg-platinum text-charcoal">
-				</div>
-				<div class="col-span-full sm:col-span-3">
-					<label for="email" class="text-sm dark:text-platinum">Email</label>
-					<input id="email" name="email" type="email" placeholder="Email" class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-charcoal bg-platinum text-charcoal">
-				</div>
-				<div class="col-span-full">
-					<label for="address" class="text-sm dark:text-platinum">Messaggio</label>
-					<textarea id="address" name="messaggio" type="text" placeholder="Messaggio" class="w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-charcoal bg-platinum text-charcoal"></textarea>
-        <button type="submit" class="px-8 py-3 font-semibold rounded bg-blue-800 text-white">Invia</button>
+			</div>
+
+			<div class="flex flex-wrap -mx-3 mb-6">
+				<div class="w-full px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-message">
+						Messaggio *
+					</label>
+					<textarea
+						class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+						id="grid-messagge" name="messaggio" rules="required"></textarea>
+					<p class="text-gray-600 text-xs italic">Brevemente maggiori dettagli sulla sua richiesta</p>
 				</div>
 			</div>
-      
-		</fieldset>
-	</form>
+
+			<hr>
+
+			<div class="flex flex-wrap -mx-3 mb-6">
+				<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+						Nome e cognome
+					</label>
+					<input
+						class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+						id="grid-first-name" type="text" placeholder="Mario Rossi" name="nome">
+				</div>
+				<div class="w-full md:w-1/2 px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-company">
+						Azienda
+					</label>
+					<input
+						class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+						id="grid-company" type="text" placeholder="Acme" name="azienda">
+				</div>
+			</div>
+
+
+			<div class="flex flex-wrap -mx-3 mb-2">
+				<div class="w-full md:w-1/2 px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-email">
+						Email *
+					</label>
+					<input
+						class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+						id="grid-email" type="email" placeholder="nome@dominio.com" name="email" rules="required|email">
+				</div>
+				<div class="w-full md:w-1/2 px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-website">
+						Sito
+					</label>
+					<input
+						class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+						id="grid-website" type="text" placeholder="www.dominio.com" name="website">
+				</div>
+				
+			</div>
+			<div class="flex items-center justify-between">
+				<button class="bg-charcoal hover:bg-deepspace text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+				  Invia
+				</button>
+			  </div>
+			</div>
+		</form>
+	</div>
+
+	</div>
+
+
+	
 </section>
+
 
 
 <script>
@@ -241,11 +333,11 @@ function segmentIdentify() {
   analytics.identify({
     name: thisForm.nome.value,
     company: thisForm.azienda.value,
-    email: thisForm.email.value
+    email: thisForm.email.value,
+	user_need: thisForm.request.value
   });
 
   analytics.track("Form contatto inviato");
-
   window.dataLayer.push({'event': 'contactFormSent'});
 
 }
