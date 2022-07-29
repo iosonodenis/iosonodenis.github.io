@@ -213,16 +213,6 @@
     <loc>https://denisrasia.com/insight/il-nuovo-ga4/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://denisrasia.com/en/insight/il-nuovo-ga4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://denisrasia.com/insight/il-nuovo-ga4/"
-                />
   </url><url>
     <loc>https://denisrasia.com/servizi/universal-analytics-data-export/</loc>
     <changefreq>monthly</changefreq>

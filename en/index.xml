@@ -14,7 +14,8 @@
       <guid>https://denisrasia.com/en/cookie/</guid>
       <description>Privacy policy super short I have no idea who you are, just how many of you are (until you fill out a form with your email)
 This site uses web analytics tools to know how many people arrive and visit its pages.
-Cookie settings </description>
+Selected tools are:
+Mixpanel Google Analytics 4 Amplitude Inspectlet Served via a Customer Data Platform.</description>
     </item>
     
     <item>
@@ -80,17 +81,6 @@ Privacy by design Considering privacy by design in digital analytics is importan
       <description> Informazioni personali
 Inviando il form acconsento alla memorizzazione dei miei dati secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016, GDPR
 Name and surname Company Email Message Send </description>
-    </item>
-    
-    <item>
-      <title>Universal Analytics e GA4</title>
-      <link>https://denisrasia.com/en/insight/il-nuovo-ga4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://denisrasia.com/en/insight/il-nuovo-ga4/</guid>
-      <description>Citando testualmente il banner presente in Google Analytics: A partire dal 1° luglio 2023, Universal Analytics non elaborerà più i nuovi dati nelle proprietà standard. Preparati oggi stesso configurando e iniziando a utilizzare una proprietà Google Analytics 4.
-Questo significa che:
-dalla data indicata l&amp;rsquo;unico strumento Google per la misurazione del traffico web sarà GA4. cambiano i tag e le modalità di misurazione del traffico web, le implementazioni di Google Tag Manager andranno aggiornate.</description>
     </item>
     
     <item>
